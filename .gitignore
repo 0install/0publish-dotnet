@@ -1,0 +1,16 @@
+*.user
+*.bak
+*.a.resx
+*.o.resx
+
+# Caches
+/src/.vs/
+/src/.idea/
+/src/_ReSharper.*/
+/src/obj/
+/src/bin/
+
+# Output
+/artifacts/
+/0publish-dotnet-*.xml
+/0publish-dotnet-*.tar.zst

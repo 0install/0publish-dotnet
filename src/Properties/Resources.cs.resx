@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AskForPassphrase" xml:space="preserve">
+    <value>Zadejte prosím přístupovou frázi GnuPG pro {0}:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="LicenseInfo" xml:space="preserve">
+    <value>Na tento program se v rozsahu povoleném zákonem nevztahuje ABSOLUTNĚ ŽÁDNÁ ZÁRUKA.
+Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General Public License.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="MissingArguments" xml:space="preserve">
+    <value>Chybějící argumenty. Zkuste {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NoFeedFilesFound" xml:space="preserve">
+    <value>Nelze nalézt žádné odpovídající soubory feedu.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddMissing" xml:space="preserve">
+    <value>Stahování chybějících archivů, výpočet manifestů atd..</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalog" xml:space="preserve">
+    <value>Sloučení všech zadaných kanálů do jednoho katalogu {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionGnuPGPassphrase" xml:space="preserve">
+    <value>K odemknutí tajného klíče GnuPG použijte stránku {PASS}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionHelp" xml:space="preserve">
+    <value>Zobrazení vestavěného textu nápovědy.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionKey" xml:space="preserve">
+    <value>Klíč, který se používá k podepisování (pokud jich máte více nebo pokud chcete rezignovat pomocí jiného klíče).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Možnosti:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionUnsign" xml:space="preserve">
+    <value>Odstranění všech existujících podpisů.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVersion" xml:space="preserve">
+    <value>Zobrazení informací o verzi.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionXmlSign" xml:space="preserve">
+    <value>Přidání bloku podpisu XML. (Všechny vzdálené kanály musí být podepsány.)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Použití:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+</root>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AskForPassphrase" xml:space="preserve">
+    <value>Entrez le mot de passe GnuPG pour {0}, svp:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="LicenseInfo" xml:space="preserve">
+    <value>Ce programme est fourni SANS AUCUNE GARANTIE, dans les limites prévues par la loi applicable.
+Vous pouvez redistribuer des copies de ce programme suivant les termes de la “GNU Lesser General Public License”.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="MissingArguments" xml:space="preserve">
+    <value>Arguments manquants. Essayer {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NoFeedFilesFound" xml:space="preserve">
+    <value>Impossible de trouver les fichiers de flux correspondants.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionAddMissing" xml:space="preserve">
+    <value>Télécharger les archives manquantes, calculer les résumés des manifestes, etc.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalog" xml:space="preserve">
+    <value>Combinez tous les flux spécifiés en un seul catalogue {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionGnuPGPassphrase" xml:space="preserve">
+    <value>Utilisez {PASS} pour déverrouiller la clé secrète de GnuPG.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionHelp" xml:space="preserve">
+    <value>Affiche le texte d'aide encastrée.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionKey" xml:space="preserve">
+    <value>Clé à utiliser pour la signature (si vous en avez plusieurs, ou si vous voulez signer avec une clé différente).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options :</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionUnsign" xml:space="preserve">
+    <value>Supprimez toutes les signatures existantes.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVersion" xml:space="preserve">
+    <value>Affiche les informations de version.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionXmlSign" xml:space="preserve">
+    <value>Ajout d'un bloc de signature XML. (Tous les flux à distance doivent être signés)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Usage:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+</root>
