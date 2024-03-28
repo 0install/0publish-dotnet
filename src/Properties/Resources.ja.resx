@@ -76,11 +76,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>見つからないアーカイブのダウンロード、マニフェスト・ダイジェストの計算など。</value>
+    <value>不足アーカイブのダウンロード、マニフェスト・ダイジェストの計算など。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>指定されたすべてのフィードを1つのカタログにまとめる{FILE} 。</value>
+    <value>指定したすべてのフィードを1つのカタログにまとめる{FILE} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
