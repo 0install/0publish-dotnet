@@ -7,7 +7,6 @@ using NanoByte.Common;
 using NanoByte.Common.Net;
 using NanoByte.Common.Tasks;
 using NDesk.Options;
-using ZeroInstall.Publish;
 using ZeroInstall.Publish.Cli;
 using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Trust;
