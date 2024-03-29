@@ -30,7 +30,7 @@
   <!-- Dependencies -->
   <ItemGroup>
     <PackageReference Include="NanoByte.Common.AnsiCli" Version="2.18.3" />
-    <PackageReference Include="ZeroInstall.Publish" Version="2.25.7" PrivateAssets="None" /><!-- Flow native libs from assets -->
+    <PackageReference Include="ZeroInstall.Publish" Version="2.25.7" />
     <PackageReference Include="NDesk.Options.Patched" Version="0.3.2" />
   </ItemGroup>
 
