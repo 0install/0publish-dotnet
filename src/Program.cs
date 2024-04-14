@@ -11,7 +11,6 @@ using ZeroInstall.Publish.Cli;
 using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Trust;
 
-ProcessUtils.SanitizeEnvironmentVariables();
 NetUtils.ApplyProxy();
 ServicePointManager.DefaultConnectionLimit = 16;
 
