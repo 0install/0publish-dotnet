@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chiave da utilizzare per la firma (se ne avete più di una o se volete dimettervi con una chiave diversa).</value>
+    <value>Chiave da utilizzare per la firma (se ne avete più di una o se volete rifirmare con una chiave diversa).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,11 +100,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Rimuovere le firme esistenti.</value>
+    <value>Rimuove le firme esistenti.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Visualizzazione delle informazioni sulla versione.</value>
+    <value>Visualizza le informazioni sulla versione.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">

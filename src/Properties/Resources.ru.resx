@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Эта программа поставляется с АБСОЛЮТНОЙ НЕ ГАРАНТИЕЙ, в пределах, разрешенных законом.
+    <value>Эта программа поставляется с АБСОЛЮТНО НЕОБХОДИМОЙ ГАРАНТИЕЙ, в пределах, разрешенных законом.
 Вы можете распространять копии этой программы в соответствии с условиями GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -72,15 +72,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Невозможно найти подходящие файлы фидов.</value>
+    <value>Невозможно найти ни одного подходящего файла.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Загрузка недостающих архивов, вычисление дайджестов манифеста и т. д.</value>
+    <value>Загрузка недостающих архивов, вычисление дайджестов манифеста и т. д..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Объединение всех заданных фидов в единый каталог {FILE}.</value>
+    <value>Объединение всех заданных каналов в единый каталог {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -96,11 +96,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Опции:</value>
+    <value>Параметры:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Удалите все существующие подписи.</value>
+    <value>Удаление всех существующих подписей.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -108,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Добавьте блок XML-подписи. (Все удаленные каналы должны быть подписаны)</value>
+    <value>Добавьте блок XML-подписи. (Все удаленные файлы должны быть подписаны)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

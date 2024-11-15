@@ -72,11 +72,11 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Tidak dapat menemukan file feed yang cocok.</value>
+    <value>Tidak dapat menemukan file umpan yang cocok.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Unduh arsip yang hilang, hitung intisari manifes, dll..</value>
+    <value>Mengunduh arsip yang hilang, menghitung intisari manifes, dll..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -92,7 +92,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Tombol yang digunakan untuk menandatangani (jika Anda memiliki lebih dari satu, atau jika Anda ingin mengundurkan diri dengan tombol yang berbeda).</value>
+    <value>Kunci yang digunakan untuk menandatangani (jika Anda memiliki lebih dari satu, atau jika Anda ingin mengundurkan diri dengan kunci yang berbeda).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

@@ -76,7 +76,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>누락된 아카이브 다운로드, 적하목록 요약 계산 등...</value>
+    <value>누락된 아카이브를 다운로드하고, 매니페스트 다이제스트를 계산하는 등의 작업을 수행합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>서명에 사용할 키(두 개 이상의 키가 있거나 다른 키로 서명하려는 경우).</value>
+    <value>서명에 사용할 키(둘 이상의 키가 있거나 다른 키로 서명하려는 경우).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>기존 서명을 모두 제거합니다.</value>
+    <value>기존 서명을 제거합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

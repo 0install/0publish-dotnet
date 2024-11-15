@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Zadejte prosím přístupovou frázi GnuPG pro {0}:</value>
+    <value>Zadejte heslovou frázi GnuPG pro {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -72,27 +72,27 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nelze nalézt žádné odpovídající soubory feedu.</value>
+    <value>Nelze nalézt žádné odpovídající soubory.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Stahování chybějících archivů, výpočet manifestů atd..</value>
+    <value>Stáhne chybějící archivy, vypočítá manifest digest atd..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Sloučení všech zadaných kanálů do jednoho katalogu {FILE}.</value>
+    <value>Spojí všechny zadané kanály do jednoho katalogu {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>K odemknutí tajného klíče GnuPG použijte stránku {PASS}.</value>
+    <value>K odemknutí tajného klíče GnuPG použijte adresu {PASS}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Zobrazení vestavěného textu nápovědy.</value>
+    <value>Zobrazí vestavěný text nápovědy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klíč, který se používá k podepisování (pokud jich máte více nebo pokud chcete rezignovat pomocí jiného klíče).</value>
+    <value>Klíč, který použijete k podepisování (pokud jich máte více nebo pokud chcete rezignovat s jiným klíčem).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,11 +100,11 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Odstranění všech existujících podpisů.</value>
+    <value>Odstraní všechny existující podpisy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Zobrazení informací o verzi.</value>
+    <value>Zobrazí informace o verzi.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">

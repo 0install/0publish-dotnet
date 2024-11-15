@@ -76,11 +76,11 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Pobieranie brakujących archiwów, obliczanie manifestów itp.</value>
+    <value>Pobiera brakujące archiwa, oblicza skróty manifestów itp.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Łączenie wszystkich określonych kanałów w jeden katalog {FILE}.</value>
+    <value>Łączy wszystkie określone kanały w jeden katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -100,15 +100,15 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Usuwanie istniejących podpisów.</value>
+    <value>Usuwa wszelkie istniejące podpisy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Wyświetlanie informacji o wersji.</value>
+    <value>Wyświetla informacje o wersji.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Dodanie bloku podpisu XML. (Wszystkie zdalne kanały muszą być podpisane)</value>
+    <value>Dodaje blok podpisu XML. (Wszystkie zdalne pliki muszą być podpisane)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
