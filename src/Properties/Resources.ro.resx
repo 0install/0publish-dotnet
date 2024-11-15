@@ -72,15 +72,15 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nu a putut găsi niciun fișier de alimentare corespunzător.</value>
+    <value>Nu a putut găsi niciun fișier feed corespunzător.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descărcați arhivele lipsă, calculați digesturile manifest, etc..</value>
+    <value>Descărcați arhivele lipsă, calculați manifest digests, etc..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combinați toate fluxurile specificate într-un singur catalog {FILE}.</value>
+    <value>Combină toate fluxurile specificate într-un singur catalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -88,11 +88,11 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Afișați textul de ajutor încorporat.</value>
+    <value>Afișează textul de ajutor încorporat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Cheia de utilizat pentru semnare (dacă aveți mai multe chei sau dacă doriți să semnați cu o cheie diferită).</value>
+    <value>Cheia care trebuie utilizată pentru semnare (dacă aveți mai multe chei sau dacă doriți să semnați cu o cheie diferită).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,15 +100,15 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Eliminați orice semnături existente.</value>
+    <value>Elimină orice semnătură existentă.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Afișarea informațiilor despre versiune.</value>
+    <value>Afișează informații despre versiune.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Adăugați un bloc de semnătură XML. (Toate fluxurile de la distanță trebuie să fie semnate.)</value>
+    <value>Adăugați un bloc de semnătură XML. (Toate fluxurile de la distanță trebuie semnate)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

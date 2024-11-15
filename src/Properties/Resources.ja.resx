@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>{0} のGnuPGパスフレーズを入力してください：</value>
+    <value>{0} の GnuPG パスフレーズを入力してください：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>このプログラムには、法律で認められている限りにおいて、まったくの無保証が付きます。
+    <value>このプログラムには、法律で認められている限りにおいて、一切の保証がありません。
 あなたは、GNU Lesser General Public Licenseの条件の下で、このプログラムのコピーを再配布することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -76,15 +76,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>不足アーカイブのダウンロード、マニフェスト・ダイジェストの計算など。</value>
+    <value>見つからないアーカイブのダウンロード、マニフェストダイジェストの計算など。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>指定したすべてのフィードを1つのカタログにまとめる{FILE} 。</value>
+    <value>指定したすべてのフィードを一つのカタログにまとめる{FILE} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>{PASS} 、GnuPG秘密鍵を解除してください。</value>
+    <value>{PASS} 、GnuPG秘密鍵を解除する。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>署名に使用するキー（複数のキーをお持ちの場合、または別のキーで辞任したい場合）。</value>
+    <value>署名に使用するキー（複数持っている場合、または別のキーで辞任したい場合）。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,19 +100,19 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>既存の署名を削除します。</value>
+    <value>既存の署名を削除する。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>バージョン情報を表示します。</value>
+    <value>バージョン情報の表示</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>XML署名ブロックを追加。(すべてのリモートフィードには署名が必要です)。</value>
+    <value>XML署名ブロックを追加する。(すべてのリモートフィードは署名されている必要があります)。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>使い方：</value>
+    <value>使用法：</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

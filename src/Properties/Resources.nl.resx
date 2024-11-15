@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Voer de GnuPG-wachtzin in voor {0}:</value>
+    <value>Voer de GnuPG wachtwoordzin in voor {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -72,15 +72,15 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Kan geen overeenkomende feedbestanden vinden.</value>
+    <value>Kan geen overeenkomende feed-bestanden vinden.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Download ontbrekende archieven, bereken manifest digests, enz.</value>
+    <value>Download ontbrekende archieven, bereken manifest digests, enzovoort.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combineer alle opgegeven feeds in één catalogus {FILE}.</value>
+    <value>Combineert alle opgegeven feeds in één catalogus {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -88,7 +88,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Toon de ingebouwde helptekst.</value>
+    <value>Toont de ingebouwde helptekst.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
@@ -100,15 +100,15 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Verwijder bestaande handtekeningen.</value>
+    <value>Verwijdert bestaande handtekeningen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Versie-informatie weergeven.</value>
+    <value>Geeft versie-informatie weer.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Een XML-handtekeningblok toevoegen. (Alle feeds op afstand moeten worden ondertekend)</value>
+    <value>Voeg een XML handtekeningblok toe. (Alle externe feeds moeten worden ondertekend)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
