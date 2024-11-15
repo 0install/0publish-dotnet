@@ -76,15 +76,15 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Télécharger les archives manquantes, calculer les résumés des manifestes, etc.</value>
+    <value>Téléchargement d'archives manquantes, calcul de condensés de manifeste, etc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combinez tous les flux spécifiés en un seul catalogue {FILE}.</value>
+    <value>Combine tous les flux spécifiés en un seul catalogue {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Utilisez {PASS} pour déverrouiller la clé secrète de GnuPG.</value>
+    <value>Utilisez {PASS} pour déverrouiller la clé secrète GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -92,7 +92,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Clé à utiliser pour la signature (si vous en avez plusieurs, ou si vous voulez signer avec une clé différente).</value>
+    <value>Clé à utiliser pour la signature (si vous en avez plus d'une, ou si vous voulez resigner avec une clé différente).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,7 +100,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Supprimez toutes les signatures existantes.</value>
+    <value>Supprime toutes les signatures existantes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -108,7 +108,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Ajout d'un bloc de signature XML. (Tous les flux à distance doivent être signés)</value>
+    <value>Ajouter un bloc de signature XML. (Tous les flux distants doivent être signés)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

@@ -76,19 +76,19 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descargar archivos perdidos, calcular compendios de manifiesto, etc..</value>
+    <value>Descarga archivos perdidos, calcula manifiestos, etc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combine todos los feeds especificados en un único catálogo {FILE}.</value>
+    <value>Combina todas las fuentes especificadas en un único catálogo {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Utilice {PASS} para desbloquear la clave secreta GnuPG.</value>
+    <value>Utilice {PASS} para desbloquear la clave secreta de GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Mostrar el texto de ayuda incorporado.</value>
+    <value>Muestra el texto de ayuda incorporado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
@@ -108,7 +108,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Añadir un bloque de firma XML. (Todas las fuentes remotas deben estar firmadas)</value>
+    <value>Añade un bloque de firma XML. (Todas las fuentes remotas deben estar firmadas)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

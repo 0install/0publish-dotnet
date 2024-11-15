@@ -72,7 +72,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>无法找到任何匹配的饲料文件。</value>
+    <value>无法找到匹配的 feed 文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -80,7 +80,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>将所有指定的供稿合并为一个目录{FILE} 。</value>
+    <value>将所有指定的信息源合并为一个目录{FILE} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>用于签名的密钥（如果您有多个密钥，或者您想用不同的密钥签名）。</value>
+    <value>用于签名的密钥（如果你有多个密钥，或者你想用不同的密钥签名）。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -104,11 +104,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>显示版本信息。</value>
+    <value>显示版本信息</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>添加 XML 签名块。(所有远程供稿都必须签名）。</value>
+    <value>添加 XML 签名块。(所有远程馈送文件都必须签名）。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
