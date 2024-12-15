@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk toegestaan.
+    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk is toegestaan.
 Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -108,7 +108,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Voeg een XML handtekeningblok toe. (Alle externe feeds moeten worden ondertekend)</value>
+    <value>Voeg een XML handtekeningblok toe. (Alle externe feeds moeten worden ondertekend.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

@@ -76,7 +76,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Télécharger les archives manquantes, calculer les résumés de manifeste, etc.</value>
+    <value>Téléchargement d'archives manquantes, calcul de condensés de manifeste, etc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
