@@ -68,7 +68,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Arguments manquants. Essayer {0}</value>
+    <value>Arguments manquants. Essai {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
