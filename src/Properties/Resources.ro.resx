@@ -76,7 +76,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descărcați arhivele lipsă, calculați manifest digests, etc..</value>
+    <value>Descărcarea arhivelor lipsă, calcularea digesturilor manifest, etc..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
