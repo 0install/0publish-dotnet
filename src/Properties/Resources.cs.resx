@@ -80,7 +80,7 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Sloučí všechny zadané kanály do jednoho katalogu {FILE}.</value>
+    <value>Spojí všechny zadané kanály do jednoho katalogu {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
