@@ -3,13 +3,12 @@
   "extends": ["config:base", ":disableDependencyDashboard"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^NanoByte", "^ZeroInstall"],
-      "groupName": "Zero Install .NET",
-      "automerge": true,
-      "automergeType": "branch"
+      "matchPackageNames": ["gittools"],
+      "allowedVersions": "<4"
     },
     {
-      "matchPackagePatterns": ["gittools"],
+      "matchPackagePatterns": ["^NanoByte", "^ZeroInstall"],
+      "groupName": "Zero Install .NET",
       "automerge": true,
       "automergeType": "branch"
     }
