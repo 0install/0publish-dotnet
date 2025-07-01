@@ -63,8 +63,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk toegestaan.
-Je mag kopieën van dit programma herdistribueren onder de voorwaarden van de GNU Lesser General Public License.</value>
+    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk is toegestaan.
+Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -76,7 +76,7 @@ Je mag kopieën van dit programma herdistribueren onder de voorwaarden van de GN
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Download ontbrekende archieven, bereken manifest digests, enz.</value>
+    <value>Download ontbrekende archieven, bereken manifest digests, enzovoort.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
