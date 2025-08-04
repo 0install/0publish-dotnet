@@ -1,6 +1,6 @@
 # 0publish - .NET version
 
-[![Build](https://github.com/0install/0publish-dotnet/workflows/Build/badge.svg)](https://github.com/0install/0publish-dotnet/actions?query=workflow%3ABuild)  
+[![Build](https://github.com/0install/0publish-dotnet/actions/workflows/build.yml/badge.svg)](https://github.com/0install/0publish-dotnet/actions/workflows/build.yml)  
 0publish is a command-line tool for creating and modifying Zero Install feed files.
 
 **[Documentation and download instructions](https://docs.0install.net/tools/0publish/)**
