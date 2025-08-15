@@ -108,7 +108,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Adăugați un bloc de semnătură XML. (Toate fluxurile de la distanță trebuie semnate)</value>
+    <value>Adăugați un bloc de semnătură XML. (Toate fluxurile de la distanță trebuie să fie semnate)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
