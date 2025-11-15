@@ -108,7 +108,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Voeg een XML handtekeningblok toe. (Alle externe feeds moeten worden ondertekend)</value>
+    <value>Voeg een XML handtekeningblok toe. (Alle externe feeds moeten worden ondertekend.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
