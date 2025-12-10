@@ -35,7 +35,7 @@ jobs:
           context: Command-line tool for building software packages. Downloads files from the internet.
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: translate
           commit-message: Update translations
