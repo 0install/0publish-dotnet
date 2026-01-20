@@ -13,10 +13,10 @@
       <environment insert="." name="PATH"/>
     </requires>
     <command name="run" path="0publish.exe">
-      <runner command="run" interface="https://apps.0install.net/dotnet/clr.xml" version="4.7.2.."/>
+      <runner command="run" interface="https://apps.0install.net/dotnet/clr.xml" version="4.8.."/>
     </command>
 
-    <implementation version="{version}" local-path="artifacts/Release/net472">
+    <implementation version="{version}" local-path="artifacts/Release/net48">
       <manifest-digest/>
       <archive href="0publish-dotnet-{version}.tar.zst"/>
     </implementation>
