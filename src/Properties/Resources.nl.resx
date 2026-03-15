@@ -76,7 +76,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Download ontbrekende archieven, bereken manifest digests, enzovoort.</value>
+    <value>Download ontbrekende archieven, bereken manifest digests, enz.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
