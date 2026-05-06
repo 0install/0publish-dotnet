@@ -84,7 +84,7 @@ public sealed class PublishCommand
             },
 
             // Modes
-            {"catalog=", () => Resources.OptionCatalog, path => _catalogFile = Path.GetFullPath(path)},
+            {"catalog=", () => Resources.OptionCatalog, path => _catalogFile = Paths.Absolute(path)},
             {"add-missing", () => Resources.OptionAddMissing, _ => _addMissing = true},
 
             // Signatures
