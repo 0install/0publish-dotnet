@@ -80,11 +80,11 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Alle angegebenen Feeds in einer einzelnen Katalog {DATEI} kombinieren.</value>
+    <value>Alle angegebenen Feeds in einem einzelnen Katalog {FILE} kombinieren.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Verwende {PASS} um den privaten GnuPG Schlüssel freizuschalten.</value>
+    <value>Verwende {PASS}, um den privaten GnuPG Schlüssel freizuschalten.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
