@@ -64,12 +64,12 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Program ini hadir tanpa jaminan sama sekali, sejauh diizinkan oleh hukum.
-Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik Umum GNU Lesser.</value>
-    <comment>Automatically translated.</comment>
+Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser General Public License.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Argumen yang hilang. Mencoba {0}</value>
-    <comment>Automatically translated.</comment>
+    <value>Argumen yang hilang. Coba {0}</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Tidak dapat menemukan file umpan yang cocok.</value>

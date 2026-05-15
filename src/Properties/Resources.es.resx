@@ -72,12 +72,12 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>No se puede encontrar ningún archivo de alimentación coincidente.</value>
-    <comment>Automatically translated.</comment>
+    <value>No se puede encontrar ningún archivo feed coincidente.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descarga archivos perdidos, calcula manifiestos, etc.</value>
-    <comment>Automatically translated.</comment>
+    <value>Descarga archivos faltantes, calcula los resúmenes de manifiestos, etc.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combina todas las fuentes especificadas en un único catálogo {FILE}.</value>
@@ -92,8 +92,8 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Clave a utilizar para firmar (si tienes más de una, o si quieres renunciar con una clave diferente).</value>
-    <comment>Automatically translated.</comment>
+    <value>Clave a utilizar para firmar (si tienes más de una, o si quieres volver a firmar con una clave diferente).</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Opciones:</value>

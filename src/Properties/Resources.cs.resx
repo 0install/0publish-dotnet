@@ -105,7 +105,7 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Zobrazí informace o verzi.</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Přidání bloku podpisu XML. (Všechny vzdálené kanály musí být podepsány.)</value>

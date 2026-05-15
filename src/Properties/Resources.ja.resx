@@ -68,8 +68,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>引数がありません。試す{0}</value>
-    <comment>Automatically translated.</comment>
+    <value>引数が足りません。{0} を試してください</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>一致するフィードファイルが見つかりません。</value>

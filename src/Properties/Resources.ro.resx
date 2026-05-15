@@ -68,15 +68,15 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Argumente lipsă. Încercare {0}</value>
-    <comment>Automatically translated.</comment>
+    <value>Argumente lipsă. Încercați {0}</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Nu a putut găsi niciun fișier feed corespunzător.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descărcați arhivele lipsă, calculați manifest digests, etc..</value>
+    <value>Descărcarea arhivelor lipsă, calcularea digesturilor manifest, etc..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">

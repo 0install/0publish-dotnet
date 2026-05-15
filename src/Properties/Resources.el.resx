@@ -80,7 +80,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Συνδυάστε όλες τις καθορισμένες τροφοδοσίες σε ένα ενιαίο κατάλογο {ΑΡΧΕΙΟ}.</value>
+    <value>Συνδυάστε όλες τις καθορισμένες τροφοδοσίες σε ένα ενιαίο κατάλογο {FILE}.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,7 +92,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Κλειδί για την χρήση υπογραφής (αν έχετε περισσότερα από ενα, ή αν θέλετε παραίτησή με διαφορετικό κλειδί).</value>
+    <value>Κλειδί για την χρήση υπογραφής (αν έχετε περισσότερα από ενα, ή αν θέλετε να υπογράψετε ξανά με διαφορετικό κλειδί).</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
