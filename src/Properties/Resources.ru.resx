@@ -63,17 +63,17 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Эта программа поставляется с АБСОЛЮТНО НЕОБХОДИМОЙ ГАРАНТИЕЙ, в пределах, разрешенных законом.
+    <value>Эта программа поставляется БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, в пределах, разрешенных законом.
 Вы можете распространять копии этой программы в соответствии с условиями GNU Lesser General Public License.</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
     <value>Недостающие аргументы. Попробуйте {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Невозможно найти ни одного подходящего файла.</value>
-    <comment>Automatically translated.</comment>
+    <value>Невозможно найти ни одного подходящего feed-файла.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Загрузка недостающих архивов, вычисление дайджестов манифеста и т. д..</value>
@@ -92,8 +92,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Ключ для подписи (если у вас их несколько, или если вы хотите подписаться другим ключом).</value>
-    <comment>Automatically translated.</comment>
+    <value>Ключ для подписи (если у вас их несколько, или если вы хотите подписать повторно другим ключом).</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Параметры:</value>

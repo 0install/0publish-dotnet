@@ -68,8 +68,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>인수가 누락되었습니다. 시도 {0}</value>
-    <comment>Automatically translated.</comment>
+    <value>인수가 누락되었습니다. {0}을(를) 시도해 보세요</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>일치하는 피드 파일을 찾을 수 없습니다.</value>
@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>서명에 사용할 키(둘 이상의 키가 있거나 다른 키로 서명하려는 경우).</value>
+    <value>서명에 사용할 키(두 개 이상의 키가 있거나 다른 키로 서명하려는 경우).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

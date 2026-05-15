@@ -68,8 +68,8 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Arguments manquants. Essayer {0}</value>
-    <comment>Automatically translated.</comment>
+    <value>Arguments manquants. Essayez {0}</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Impossible de trouver les fichiers de flux correspondants.</value>
@@ -92,8 +92,8 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Clé à utiliser pour la signature (si vous en avez plus d'une, ou si vous voulez resigner avec une clé différente).</value>
-    <comment>Automatically translated.</comment>
+    <value>Clé à utiliser pour la signature (si vous en avez plus d'une, ou si vous voulez signer à nouveau avec une clé différente).</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Options :</value>
@@ -112,7 +112,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Usage:</value>
+    <value>Utilisation :</value>
     <comment>Manually overriden.</comment>
   </data>
 </root>
