@@ -68,7 +68,7 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Argümanlar eksik. {0} deneyin.</value>
+    <value>Değişkenler eksik. {0} deneyin.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -76,7 +76,7 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Eksik arşivleri indirin, manifest özetlerini hesaplayın, vb.</value>
+    <value>Eksik arşivleri indirin, öge listesi dosyalarını hesaplayın, vb.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -108,7 +108,7 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Bir XML imza bloğu ekleyin. (Tüm uzak akışların imzalanmış olması gerekmektedir.)</value>
+    <value>Bir XML imza bloğu ekleyin. (Tüm uzak akışlar imzalanmış olmalıdır.)</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
