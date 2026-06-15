@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Masukkan kata sandi GnuPG untuk {0}:</value>
+    <value>Silakan masukkan frasa sandi GnuPG untuk {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -72,27 +72,27 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Tidak dapat menemukan file umpan yang cocok.</value>
+    <value>Tidak dapat menemukan file feed yang cocok.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Mengunduh arsip yang hilang, menghitung intisari manifes, dll..</value>
+    <value>Mengunduh arsip yang hilang, menghitung ringkasan manifes, dll.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Menggabungkan semua feed yang ditentukan ke dalam satu katalog {FILE}.</value>
+    <value>Gabungkan semua feed yang ditentukan ke dalam satu katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Gunakan {PASS} untuk membuka kunci rahasia GnuPG.</value>
+    <value>Gunakan perintah ` {PASS} ` untuk membuka kunci rahasia GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Menampilkan teks bantuan bawaan.</value>
+    <value>Tampilkan teks bantuan bawaan.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Kunci yang digunakan untuk menandatangani (jika Anda memiliki lebih dari satu, atau jika Anda ingin mengundurkan diri dengan kunci yang berbeda).</value>
+    <value>Kunci yang akan digunakan untuk menandatangani (jika Anda memiliki lebih dari satu kunci, atau jika Anda ingin menandatangani ulang dengan kunci yang berbeda).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,7 +100,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Menghapus semua tanda tangan yang ada.</value>
+    <value>Hapus semua tanda tangan yang ada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -108,11 +108,11 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Menambahkan blok tanda tangan XML. (Semua umpan jarak jauh harus ditandatangani.)</value>
+    <value>Tambahkan blok tanda tangan XML. (Semua umpan jarak jauh harus ditandatangani.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Penggunaan:</value>
+    <value>Cara penggunaan:</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

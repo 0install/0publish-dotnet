@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Inserire la passphrase GnuPG per {0}:</value>
+    <value>Inserisci la passphrase GnuPG per {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Questo programma non è accompagnato da alcuna garanzia, nei limiti consentiti dalla legge.
+    <value>Questo programma viene fornito SENZA ALCUNA GARANZIA, nella misura consentita dalla legge.
 È possibile ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -76,7 +76,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Scarica gli archivi mancanti, calcola i manifest digest, ecc.</value>
+    <value>Scarica gli archivi mancanti, calcola i digest dei manifest, ecc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -84,15 +84,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Utilizzare {PASS} per sbloccare la chiave segreta di GnuPG.</value>
+    <value>Utilizza {PASS} per sbloccare la chiave segreta di GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Mostra il testo di aiuto incorporato.</value>
+    <value>Visualizza il testo della guida integrata.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chiave da utilizzare per la firma (se ne avete più di una o se volete rifirmare con una chiave diversa).</value>
+    <value>Chiave da utilizzare per la firma (se ne possiedi più di una o se desideri rifirmare con una chiave diversa).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Rimuove le firme esistenti.</value>
+    <value>Rimuovi eventuali firme esistenti.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -108,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Aggiungere un blocco di firma XML. (Tutti i feed remoti devono essere firmati)</value>
+    <value>Aggiungere un blocco di firma XML. (Tutti i feed remoti devono essere firmati.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

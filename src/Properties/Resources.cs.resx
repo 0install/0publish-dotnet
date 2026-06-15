@@ -59,32 +59,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Zadejte heslovou frázi GnuPG pro {0}:</value>
+    <value>Zadejte prosím heslo GnuPG pro {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Na tento program se v rozsahu povoleném zákonem nevztahuje ABSOLUTNĚ ŽÁDNÁ ZÁRUKA.
-Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General Public License.</value>
+    <value>Tento program je dodáván BEZ JAKÉKOLIV ZÁRUKY, v rozsahu povoleném zákonem.
+Kopie tohoto programu můžete šířit v souladu s podmínkami GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Chybějící argumenty. Zkuste {0}</value>
+    <value>Chybí argumenty. Zkuste {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nelze nalézt žádné odpovídající soubory.</value>
+    <value>Nelze najít žádné odpovídající soubory kanálu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Stáhne chybějící archivy, vypočítá manifest digest atd..</value>
+    <value>Stahuje chybějící archivy, počítá souhrny manifestů atd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Sloučí všechny zadané kanály do jednoho katalogu {FILE}.</value>
+    <value>Sloučí všechny zadané zdroje do jediného katalogu {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>K odemknutí tajného klíče GnuPG použijte adresu {PASS}.</value>
+    <value>K odemčení tajného klíče GnuPG použijte příkaz ` {PASS} `.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -92,7 +92,7 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klíč, který použijete k podepisování (pokud jich máte více nebo pokud chcete rezignovat s jiným klíčem).</value>
+    <value>Klíč, který se má použít k podepisování (pokud máte více než jeden, nebo pokud chcete podepsat znovu jiným klíčem).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,7 +100,7 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Odstraní všechny existující podpisy.</value>
+    <value>Odstraňte všechny existující podpisy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -108,7 +108,7 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Přidání bloku podpisu XML. (Všechny vzdálené kanály musí být podepsány.)</value>
+    <value>Přidejte blok XML podpisu. (Všechny vzdálené kanály musí být podepsány.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

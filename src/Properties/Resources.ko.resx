@@ -59,12 +59,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>{0} 에 대한 GnuPG 암호를 입력하세요:</value>
+    <value>{0} 에 대한 GnuPG 암호를 입력해 주십시오:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>이 프로그램은 법이 허용하는 한도 내에서 어떠한 보증도 제공하지 않습니다.
-이 프로그램의 사본은 GNU 약소 일반 공중 사용 허가서의 조건에 따라 재배포할 수 있습니다.</value>
+    <value>이 프로그램은 법이 허용하는 범위 내에서 어떠한 보증도 제공하지 않습니다.
+귀하는 GNU 약소 일반 공중 사용 허가서(GNU Lesser General Public License)의 조건에 따라 이 프로그램의 사본을 재배포할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -80,19 +80,19 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>지정된 모든 피드를 단일 카탈로그로 결합 {FILE}.</value>
+    <value>지정된 모든 피드를 하나의 카탈로그로 통합합니다. {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>{PASS} 을 사용하여 GnuPG 비밀 키를 잠금 해제합니다.</value>
+    <value>{PASS} 를 사용하여 GnuPG 비밀 키를 해제하십시오.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>기본 제공 도움말 텍스트를 표시합니다.</value>
+    <value>내장된 도움말 텍스트를 표시합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>서명에 사용할 키(두 개 이상의 키가 있거나 다른 키로 서명하려는 경우).</value>
+    <value>서명에 사용할 키(키가 여러 개인 경우 또는 다른 키로 다시 서명하려는 경우).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>기존 서명을 제거합니다.</value>
+    <value>기존 서명을 모두 제거합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -108,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>XML 서명 블록을 추가합니다. (모든 원격 피드는 서명해야 합니다.)</value>
+    <value>XML 서명 블록을 추가합니다. (모든 원격 피드에는 서명이 있어야 합니다.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

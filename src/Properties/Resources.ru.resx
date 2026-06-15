@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Пожалуйста, введите парольную фразу GnuPG для {0}:</value>
+    <value>Введите пароль GnuPG для {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -68,7 +68,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Недостающие аргументы. Попробуйте {0}</value>
+    <value>Отсутствуют аргументы. Попробуйте {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -76,19 +76,19 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Загрузка недостающих архивов, вычисление дайджестов манифеста и т. д..</value>
+    <value>Загружает отсутствующие архивы, вычисляет дайджесты манифестов и т. д.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Объединение всех заданных каналов в единый каталог {FILE}.</value>
+    <value>Объединяет все указанные фиды в единый каталог {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Используйте {PASS} для разблокировки секретного ключа GnuPG.</value>
+    <value>Используйте команду ` {PASS} ` для разблокировки секретного ключа GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Показать текст встроенной справки.</value>
+    <value>Показать встроенную справку.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Удаление всех существующих подписей.</value>
+    <value>Удалите все существующие подписи.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -108,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Добавьте блок XML-подписи. (Все удаленные файлы должны быть подписаны)</value>
+    <value>Добавьте блок XML-подписи. (Все удаленные каналы должны быть подписаны.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

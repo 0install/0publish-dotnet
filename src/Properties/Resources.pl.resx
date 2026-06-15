@@ -63,16 +63,16 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Ten program nie jest objęty ABSOLUTNIE ŻADNĄ GWARANCJĄ w zakresie dozwolonym przez prawo.
-Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser General Public License.</value>
+    <value>Program ten jest dostarczany BEZ ŻADNEJ GWARANCJI, w zakresie dozwolonym przez prawo.
+Możesz rozpowszechniać kopie tego programu na warunkach licencji GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Brakujące argumenty. Spróbuj {0}</value>
+    <value>Brak argumentów. Spróbuj {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nie można znaleźć pasujących plików źródłowych.</value>
+    <value>Nie można znaleźć żadnych pasujących plików kanałów.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -80,19 +80,19 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Łączy wszystkie określone kanały w jeden katalog {FILE}.</value>
+    <value>Połącz wszystkie określone źródła w jeden katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Użyj {PASS}, aby odblokować tajny klucz GnuPG.</value>
+    <value>Użyj polecenia ` {PASS} `, aby odblokować klucz tajny GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Wyświetla wbudowany tekst pomocy.</value>
+    <value>Wyświetl wbudowaną pomoc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klucz używany do podpisywania (jeśli masz więcej niż jeden lub jeśli chcesz zrezygnować z innego klucza).</value>
+    <value>Klucz do użycia przy podpisywaniu (jeśli masz więcej niż jeden lub chcesz podpisać ponownie innym kluczem).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,7 +100,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Usuwa wszelkie istniejące podpisy.</value>
+    <value>Usuń wszystkie istniejące podpisy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -108,7 +108,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Dodaje blok podpisu XML. (Wszystkie zdalne pliki muszą być podpisane)</value>
+    <value>Dodaj blok podpisu XML. (Wszystkie zdalne źródła muszą być podpisane.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

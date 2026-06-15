@@ -63,8 +63,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>このプログラムには、法律で認められている限りにおいて、一切の保証がありません。
-あなたは、GNU Lesser General Public Licenseの条件の下で、このプログラムのコピーを再配布することができます。</value>
+    <value>本プログラムは、法律で認められる範囲において、一切の保証を伴いません。
+本プログラムの複製物は、GNU Lesser General Public License の条件に従って再配布することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -76,23 +76,23 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>見つからないアーカイブのダウンロード、マニフェストダイジェストの計算など。</value>
+    <value>不足しているアーカイブのダウンロード、マニフェストのダイジェスト計算などを行います。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>指定したすべてのフィードを一つのカタログにまとめる{FILE} 。</value>
+    <value>指定されたすべてのフィードを単一のカタログに統合します{FILE} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>{PASS} 、GnuPG秘密鍵を解除する。</value>
+    <value>{PASS} を使用して、GnuPGの秘密鍵のロックを解除してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>組み込みのヘルプテキストを表示します。</value>
+    <value>組み込みのヘルプを表示します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>署名に使用するキー（複数持っている場合、または別のキーで辞任したい場合）。</value>
+    <value>署名に使用する鍵（複数の鍵がある場合、または別の鍵で再署名したい場合）。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,19 +100,19 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>既存の署名を削除する。</value>
+    <value>既存の署名をすべて削除します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>バージョン情報の表示</value>
+    <value>バージョン情報を表示します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>XML署名ブロックを追加する。(すべてのリモートフィードは署名されている必要があります)。</value>
+    <value>XML署名ブロックを追加します。（すべてのリモートフィードには署名が必要です。）</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>使用法：</value>
+    <value>使用方法：</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

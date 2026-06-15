@@ -76,15 +76,15 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Téléchargement d'archives manquantes, calcul des résumés de manifeste, etc.</value>
+    <value>Télécharge les archives manquantes, calcule les résumés de manifeste, etc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combine tous les flux spécifiés en un seul catalogue {FILE}.</value>
+    <value>Regroupe tous les flux spécifiés dans un seul catalogue {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Utilisez {PASS} pour déverrouiller la clé secrète GnuPG.</value>
+    <value>Utilisez la commande « {PASS} » pour déverrouiller la clé secrète GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -108,7 +108,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Ajouter un bloc de signature XML. (Tous les flux distants doivent être signés)</value>
+    <value>Ajouter un bloc de signature XML. (Tous les flux distants doivent être signés.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
