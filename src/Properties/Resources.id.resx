@@ -88,11 +88,11 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Tampilkan teks bantuan bawaan.</value>
+    <value>Menampilkan teks bantuan bawaan.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Kunci yang akan digunakan untuk menandatangani (jika Anda memiliki lebih dari satu kunci, atau jika Anda ingin menandatangani ulang dengan kunci yang berbeda).</value>
+    <value>Kunci yang akan digunakan untuk penandatanganan (jika Anda memiliki lebih dari satu kunci, atau jika Anda ingin menandatangani ulang dengan kunci yang berbeda).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

@@ -100,7 +100,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>删除所有现有签名。</value>
+    <value>删除所有现有的签名。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

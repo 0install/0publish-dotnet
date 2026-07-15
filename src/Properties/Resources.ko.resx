@@ -64,7 +64,7 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>이 프로그램은 법이 허용하는 범위 내에서 어떠한 보증도 제공하지 않습니다.
-귀하는 GNU 약소 일반 공중 사용 허가서(GNU Lesser General Public License)의 조건에 따라 이 프로그램의 사본을 재배포할 수 있습니다.</value>
+사용자는 GNU 약소 일반 공중 사용 허가서(GNU Lesser General Public License)의 조건에 따라 이 프로그램의 사본을 재배포할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -80,11 +80,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>지정된 모든 피드를 하나의 카탈로그로 통합합니다. {FILE}.</value>
+    <value>지정된 모든 피드를 하나의 카탈로그 {FILE} 로 통합합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>{PASS} 를 사용하여 GnuPG 비밀 키를 해제하십시오.</value>
+    <value>{PASS} 를 사용하여 GnuPG 비밀 키의 잠금을 해제하십시오.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>서명에 사용할 키(키가 여러 개인 경우 또는 다른 키로 다시 서명하려는 경우).</value>
+    <value>서명에 사용할 키(키가 두 개 이상인 경우, 또는 다른 키로 다시 서명하려는 경우).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

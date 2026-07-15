@@ -59,16 +59,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Introduzca la contraseña de GnuPG par {0}:</value>
+    <value>Introduce la contraseña de GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Este programa se distribuye SIN NINGÚN TIPO DE GARANTÍA, en la medida en que lo permita la ley.
+    <value>Este programa se ofrece SIN NINGÚN TIPO DE GARANTÍA, en la medida en que lo permita la ley.
 Puedes redistribuir copias de este programa bajo los términos de la Licencia Pública General Reducida de GNU.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Faltan argumentos. Inténtalo {0}</value>
+    <value>Faltan argumentos. Inténtalo de nuevo. {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -80,7 +80,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combina todos los feeds especificados en un único catálogo {FILE}.</value>
+    <value>Combina todas las fuentes especificadas en un único catálogo {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -104,7 +104,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Muestra información sobre la versión.</value>
+    <value>Muestra la información de la versión.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">

@@ -76,11 +76,11 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descărcă arhivele lipsă, calculează rezumatele manifestului etc.</value>
+    <value>Descărcă arhivele lipsă, calculează digesturile manifestului etc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combină toate fluxurile specificate într-un singur catalog {FILE}.</value>
+    <value>Combină toate sursele specificate într-un singur catalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,7 +92,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Cheia de utilizat pentru semnare (dacă aveți mai multe sau dacă doriți să resemnați cu o altă cheie).</value>
+    <value>Cheia care trebuie utilizată pentru semnare (dacă aveți mai multe chei sau dacă doriți să resemnați cu o altă cheie).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -112,7 +112,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Utilizare:</value>
+    <value>Mod de utilizare:</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

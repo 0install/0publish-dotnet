@@ -63,12 +63,12 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Questo programma viene fornito SENZA ALCUNA GARANZIA, nella misura consentita dalla legge.
+    <value>Questo programma viene fornito SENZA ALCUNA GARANZIA, nei limiti consentiti dalla legge.
 È possibile ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Argomenti mancanti. Prova {0}</value>
+    <value>Argomenti mancanti. Prova a {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chiave da utilizzare per la firma (se ne possiedi più di una o se desideri rifirmare con una chiave diversa).</value>
+    <value>Chiave da utilizzare per la firma (se ne possiedi più di una o se desideri rifare la firma con una chiave diversa).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

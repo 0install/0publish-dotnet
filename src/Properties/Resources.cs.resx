@@ -63,8 +63,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Tento program je dodáván BEZ JAKÉKOLIV ZÁRUKY, v rozsahu povoleném zákonem.
-Kopie tohoto programu můžete šířit v souladu s podmínkami GNU Lesser General Public License.</value>
+    <value>Tento program je poskytován BEZ JAKÉKOLIV ZÁRUKY, v rozsahu povoleném zákonem.
+Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -72,11 +72,11 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami GNU Lesser Gener
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nelze najít žádné odpovídající soubory kanálu.</value>
+    <value>Nelze najít žádné odpovídající soubory kanálů.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Stahuje chybějící archivy, počítá souhrny manifestů atd.</value>
+    <value>Stahuje chybějící archivy, vypočítává souhrny manifestů atd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -92,7 +92,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami GNU Lesser Gener
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klíč, který se má použít k podepisování (pokud máte více než jeden, nebo pokud chcete podepsat znovu jiným klíčem).</value>
+    <value>Klíč, který se má použít k podepisování (pokud máte více klíčů nebo pokud chcete podepsat znovu jiným klíčem).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -108,7 +108,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami GNU Lesser Gener
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Přidejte blok XML podpisu. (Všechny vzdálené kanály musí být podepsány.)</value>
+    <value>Přidejte blok s XML podpisem. (Všechny vzdálené zdroje musí být podepsány.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
