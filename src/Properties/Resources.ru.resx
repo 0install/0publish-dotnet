@@ -80,7 +80,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Объединяет все указанные фиды в единый каталог {FILE}.</value>
+    <value>Объединяет все указанные каналы в единый каталог {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">

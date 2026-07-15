@@ -64,7 +64,7 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Program ten jest dostarczany BEZ ŻADNEJ GWARANCJI, w zakresie dozwolonym przez prawo.
-Możesz rozpowszechniać kopie tego programu na warunkach licencji GNU Lesser General Public License.</value>
+Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -72,7 +72,7 @@ Możesz rozpowszechniać kopie tego programu na warunkach licencji GNU Lesser Ge
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nie można znaleźć żadnych pasujących plików kanałów.</value>
+    <value>Nie znaleziono żadnych pasujących plików kanałów.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -80,7 +80,7 @@ Możesz rozpowszechniać kopie tego programu na warunkach licencji GNU Lesser Ge
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Połącz wszystkie określone źródła w jeden katalog {FILE}.</value>
+    <value>Połącz wszystkie wskazane źródła w jeden katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,7 +92,7 @@ Możesz rozpowszechniać kopie tego programu na warunkach licencji GNU Lesser Ge
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klucz do użycia przy podpisywaniu (jeśli masz więcej niż jeden lub chcesz podpisać ponownie innym kluczem).</value>
+    <value>Klucz do podpisywania (jeśli masz więcej niż jeden lub chcesz podpisać ponownie innym kluczem).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -100,7 +100,7 @@ Możesz rozpowszechniać kopie tego programu na warunkach licencji GNU Lesser Ge
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Usuń wszystkie istniejące podpisy.</value>
+    <value>Usuń wszystkie istniejące sygnatury.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

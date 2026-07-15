@@ -72,11 +72,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>一致するフィードファイルが見つかりません。</value>
+    <value>一致するフィードファイルが見つかりませんでした。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>不足しているアーカイブのダウンロード、マニフェストのダイジェスト計算などを行います。</value>
+    <value>不足しているアーカイブをダウンロードしたり、マニフェストのダイジェストを計算したりします。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -88,7 +88,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>組み込みのヘルプを表示します。</value>
+    <value>組み込みのヘルプテキストを表示します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">

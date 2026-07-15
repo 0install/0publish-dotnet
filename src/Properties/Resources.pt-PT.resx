@@ -59,12 +59,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Introduza a frase de passagem do GnuPG para {0}:</value>
+    <value>Introduza a frase-passe do GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Este programa é fornecido SEM QUALQUER GARANTIA, na medida do permitido por lei.
-Pode redistribuir cópias deste programa nos termos da Licença Pública Geral Reduzida da GNU.</value>
+    <value>Este programa é fornecido SEM QUALQUER TIPO DE GARANTIA, na medida do permitido por lei.
+Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Pública Geral Reduzida da GNU.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -72,7 +72,7 @@ Pode redistribuir cópias deste programa nos termos da Licença Pública Geral R
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Não foi possível encontrar ficheiros de feed correspondentes.</value>
+    <value>Não foi possível encontrar quaisquer ficheiros de feed correspondentes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -84,7 +84,7 @@ Pode redistribuir cópias deste programa nos termos da Licença Pública Geral R
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Utilize o comando ` {PASS} ` para desbloquear a chave secreta do GnuPG.</value>
+    <value>Utilize o comando « {PASS} » para desbloquear a chave secreta do GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -108,7 +108,7 @@ Pode redistribuir cópias deste programa nos termos da Licença Pública Geral R
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Adicione um bloco de assinatura XML. (Todos os feeds remotos devem ser assinados.)</value>
+    <value>Adicione um bloco de assinatura XML. (Todos os feeds remotos têm de estar assinados.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
