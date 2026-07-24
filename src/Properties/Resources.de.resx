@@ -58,9 +58,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>Die Feed-Datei '{0}' existiert nicht. Soll sie erstellt werden?</value>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Bitte geben Sie die GnuPG Passphrase für {0} ein:</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>Die Optionen {0} und {1} können nicht zusammen verwendet werden.</value>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>Der Feed ist unverändert. Er wird nicht geschrieben.</value>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Ungültiges Veröffentlichungsdatum. Verwenden Sie das Format {0} oder '{1}'.</value>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Für dieses Programm gibt es ABSOLUT KEINE GARANTIEN, soweit dies gesetzlich zulässig ist.
@@ -71,17 +83,44 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <value>Fehlende Argumente. Probieren Sie {0}</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Kein Texteditor gefunden. Versuchen Sie, die Umgebungsvariable {0} zu setzen.</value>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Konnte keine passenden Feed-Dateien finden.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Zusätzliche Manifest-Digests mit dem Algorithmus {ALG} hinzufügen.</value>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Die Implementierungen aus {FEED} zu diesem Feed hinzufügen und in der sinnvollsten Gruppe platzieren.</value>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Lade fehlende Archive runter, berechne Manifest Digests, etc..</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Eine neue Implementierung mit der Versionsnummer {VERSION} hinzufügen.</value>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Nur das Unterverzeichnis {DIR} des Archivs verwenden.</value>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>{FILE} als lokale Kopie des Archivs verwenden.</value>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Ein Archiv, das von {URL} heruntergeladen werden kann, zu einer Implementierung hinzufügen.</value>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Alle angegebenen Feeds in einem einzelnen Katalog {FILE} kombinieren.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Die Feed-Datei ohne Nachfrage erstellen, falls sie noch nicht existiert.</value>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Den Feed mit dem in der Umgebungsvariable {EDITOR} angegebenen Texteditor bearbeiten.</value>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>Verwende {PASS}, um den privaten GnuPG Schlüssel freizuschalten.</value>
@@ -94,6 +133,42 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
   <data name="OptionKey" xml:space="preserve">
     <value>Schlüssel der zum Signieren verwenden werden soll (falls Sie mehrere haben oder falls Sie mit einem anderen Schlüssel resignieren möchten).</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Den Algorithmus {ALG} für Manifest-Digests neu hinzugefügter Archive verwenden. Kann mehrfach angegeben werden.</value>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Diese Option kann nur zusammen mit {0} verwendet werden.</value>
+  </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Die --set-*-Optionen auf die Implementierungen mit der Versionsnummer {VERSION} anwenden.</value>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Die Architektur auf {ARCH} setzen (in der Form os-cpu).</value>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Die Implementierungs-ID auf {DIGEST} setzen.</value>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Die kanonische Feed-{URI} setzen.</value>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Die ausführbare Hauptdatei auf {EXEC} setzen.</value>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Das Veröffentlichungsdatum auf {DATE} setzen. Verwenden Sie das Format YYYY-MM-DD oder 'today'. Leer lassen, um das Datum zu entfernen.</value>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Die Stabilitätsbewertung auf {STABILITY} setzen.</value>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Die Versionsnummer auf {VERSION} setzen.</value>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Die neueste Testing-Implementierung als stable markieren.</value>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Ausführlichere Ausgabe. Verwenden Sie zweimal, um eine noch ausführlichere Ausgabe zu erhalten.</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Optionen:</value>
@@ -110,6 +185,9 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Füge einen XML Signaturblock hinzu. (Alle Remote-Feeds müssen signiert sein.)</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Unterstützte Werte: {0}</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Verwendung:</value>

@@ -58,9 +58,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>'{0}' akış dosyası yok. Oluşturulsun mu?</value>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>{0} için GnuPG parolasını yazın:</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>{0} ile {1} seçenekleri birlikte kullanılamaz.</value>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>Akış değişmedi. Yazılmıyor.</value>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Yayım tarihi geçersiz. {0} biçimini ya da '{1}' değerini kullanın.</value>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Bu yazılım, yasaların izin verdiği ölçüde KESİNLİKLE HERHANGİ BİR GARANTİ OLMADAN sunulur.
@@ -71,17 +83,44 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <value>Değişkenler eksik. {0} deneyin.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Metin düzenleyici bulunamadı. {0} ortam değişkenini ayarlamayı deneyin.</value>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Eşleşen herhangi bir akış dosyası bulunamadı.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>{ALG} algoritmasını kullanarak ek öge listesi karmaları ekler.</value>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>{FEED} içindeki uygulamaları bu akışa ekler ve en uygun grubun içine yerleştirir.</value>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Eksik arşivleri indirin, öge listesi dosyalarını hesaplayın, vb.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>{VERSION} sürüm numarasına sahip yeni bir uygulama ekler.</value>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Arşiv dosyasının yalnızca {DIR} alt klasörünü kullanır.</value>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Arşiv dosyasının yerel kopyası olarak {FILE} kullanılır.</value>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>{URL} adresinden indirilebilecek bir arşiv dosyasını bir uygulamaya ekler.</value>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Belirtilen tüm akışları tek bir katalogda {FILE} birleştirin.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Akış dosyası henüz yoksa sormadan oluşturur.</value>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Akışı {EDITOR} ortam değişkeninde belirtilen metin düzenleyici ile düzenler.</value>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>GnuPG gizli anahtar kilidini açmak için {PASS} kullanın.</value>
@@ -94,6 +133,42 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
   <data name="OptionKey" xml:space="preserve">
     <value>İmzalama işlemi için kullanılacak anahtar (birden fazla anahtarınız varsa ya da yeniden imzalama işlemi yapmak istiyorsanız farklı anahtarlar kullanın).</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Yeni eklenen arşiv dosyalarının öge listesi karmaları için {ALG} algoritmasını kullanır. Birden fazla kez belirtilebilir.</value>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Bu seçenek yalnızca {0} ile birlikte kullanılabilir.</value>
+  </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>--set-* seçeneklerini {VERSION} sürüm numarasına sahip uygulamalara uygular.</value>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Mimariyi {ARCH} olarak ayarlar (os-cpu biçiminde).</value>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Uygulama kimliğini {DIGEST} olarak ayarlar.</value>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Kanonik akış {URI} adresini ayarlar.</value>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Ana yürütülebilir dosyayı {EXEC} olarak ayarlar.</value>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Yayım tarihini {DATE} olarak ayarlar. YYYY-MM-DD biçimini ya da 'today' değerini kullanın. Tarihi kaldırmak için boş bırakın.</value>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Kararlılık derecesini {STABILITY} olarak ayarlar.</value>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Sürüm numarasını {VERSION} olarak ayarlar.</value>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>En son testing uygulamasını stable olarak işaretler.</value>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Ayrıntılı bir çıktı üretir. Daha ayrıntılı çıktı için iki kez kullanın.</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Seçenekler:</value>
@@ -110,6 +185,9 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Bir XML imza bloğu ekleyin. (Tüm uzak akışlar imzalanmış olmalıdır.)</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Desteklenen değerler: {0}</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Kullanım:</value>

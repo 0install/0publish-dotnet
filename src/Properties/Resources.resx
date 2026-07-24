@@ -117,8 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>The feed file '{0}' does not exist. Create it?</value>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Please enter the GnuPG passphrase for {0}:</value>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>The options {0} and {1} cannot be used together.</value>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>The feed is unchanged. Not writing.</value>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Invalid release date. Use the format {0} or '{1}'.</value>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>This program comes with ABSOLUTELY NO WARRANTY, to the extent permitted by law.
@@ -127,14 +139,41 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   <data name="MissingArguments" xml:space="preserve">
     <value>Missing arguments. Try {0}</value>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>No text editor found. Try setting the {0} environment variable.</value>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Unable to find any matching feed files.</value>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Add additional manifest digests using the algorithm {ALG}.</value>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Add the implementations in {FEED} to this feed, putting them in the most sensible group.</value>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Download missing archives, calculate manifest digests, etc..</value>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Add a new implementation with the version number {VERSION}.</value>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Only use the subdirectory {DIR} of the archive.</value>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Use {FILE} as the local copy of the archive.</value>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Add an archive that can be downloaded from {URL} to an implementation.</value>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combine all specified feeds into a single catalog {FILE}.</value>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Create the feed file if it does not exist yet, without prompting.</value>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Edit the feed with the text editor specified by the {EDITOR} environment variable.</value>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>Use {PASS} to unlock the GnuPG secret key.</value>
@@ -144,6 +183,42 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   </data>
   <data name="OptionKey" xml:space="preserve">
     <value>Key to use for signing (if you have more than one, or if you want to resign with a different key).</value>
+  </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Use the algorithm {ALG} for manifest digests of newly added archives. May be specified multiple times.</value>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>This option can only be used together with {0}.</value>
+  </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Apply the --set-* options to the implementations with the version number {VERSION}.</value>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Set the architecture to {ARCH} (in the form os-cpu).</value>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Set the implementation ID to {DIGEST}.</value>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Set the canonical feed {URI}.</value>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Set the main executable to {EXEC}.</value>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Set the release date to {DATE}. Use the format YYYY-MM-DD or 'today'. Leave empty to remove the date.</value>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Set the stability rating to {STABILITY}.</value>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Set the version number to {VERSION}.</value>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Mark the latest testing implementation as stable.</value>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>More verbose output. Use twice for even more verbose output.</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Options:</value>
@@ -156,6 +231,9 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Add an XML signature block. (All remote feeds must be signed.)</value>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Supported values: {0}</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Usage:</value>

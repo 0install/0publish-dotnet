@@ -60,11 +60,47 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The feed file '{0}' does not exist. Create it?.
+        /// </summary>
+        internal static string AskCreateFeed {
+            get {
+                return ResourceManager.GetString("AskCreateFeed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please enter the GnuPG passphrase for {0}:.
         /// </summary>
         internal static string AskForPassphrase {
             get {
                 return ResourceManager.GetString("AskForPassphrase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The options {0} and {1} cannot be used together..
+        /// </summary>
+        internal static string ExclusiveOptions {
+            get {
+                return ResourceManager.GetString("ExclusiveOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The feed is unchanged. Not writing..
+        /// </summary>
+        internal static string FeedUnchanged {
+            get {
+                return ResourceManager.GetString("FeedUnchanged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid release date. Use the format {0} or '{1}'..
+        /// </summary>
+        internal static string InvalidReleaseDate {
+            get {
+                return ResourceManager.GetString("InvalidReleaseDate", resourceCulture);
             }
         }
         
@@ -88,11 +124,38 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No text editor found. Try setting the {0} environment variable..
+        /// </summary>
+        internal static string NoEditorFound {
+            get {
+                return ResourceManager.GetString("NoEditorFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Unable to find any matching feed files..
         /// </summary>
         internal static string NoFeedFilesFound {
             get {
                 return ResourceManager.GetString("NoFeedFilesFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add additional manifest digests using the algorithm {ALG}..
+        /// </summary>
+        internal static string OptionAddDigest {
+            get {
+                return ResourceManager.GetString("OptionAddDigest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add the implementations in {FEED} to this feed, putting them in the most sensible group..
+        /// </summary>
+        internal static string OptionAddFrom {
+            get {
+                return ResourceManager.GetString("OptionAddFrom", resourceCulture);
             }
         }
         
@@ -106,11 +169,65 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add a new implementation with the version number {VERSION}..
+        /// </summary>
+        internal static string OptionAddVersion {
+            get {
+                return ResourceManager.GetString("OptionAddVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Only use the subdirectory {DIR} of the archive..
+        /// </summary>
+        internal static string OptionArchiveExtract {
+            get {
+                return ResourceManager.GetString("OptionArchiveExtract", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use {FILE} as the local copy of the archive..
+        /// </summary>
+        internal static string OptionArchiveFile {
+            get {
+                return ResourceManager.GetString("OptionArchiveFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add an archive that can be downloaded from {URL} to an implementation..
+        /// </summary>
+        internal static string OptionArchiveUrl {
+            get {
+                return ResourceManager.GetString("OptionArchiveUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Combine all specified feeds into a single catalog {FILE}..
         /// </summary>
         internal static string OptionCatalog {
             get {
                 return ResourceManager.GetString("OptionCatalog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create the feed file if it does not exist yet, without prompting..
+        /// </summary>
+        internal static string OptionCreate {
+            get {
+                return ResourceManager.GetString("OptionCreate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit the feed with the text editor specified by the {EDITOR} environment variable..
+        /// </summary>
+        internal static string OptionEdit {
+            get {
+                return ResourceManager.GetString("OptionEdit", resourceCulture);
             }
         }
         
@@ -138,6 +255,114 @@ namespace ZeroInstall.Publish.Cli.Properties {
         internal static string OptionKey {
             get {
                 return ResourceManager.GetString("OptionKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use the algorithm {ALG} for manifest digests of newly added archives. May be specified multiple times..
+        /// </summary>
+        internal static string OptionManifestAlgorithm {
+            get {
+                return ResourceManager.GetString("OptionManifestAlgorithm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This option can only be used together with {0}..
+        /// </summary>
+        internal static string OptionRequires {
+            get {
+                return ResourceManager.GetString("OptionRequires", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apply the --set-* options to the implementations with the version number {VERSION}..
+        /// </summary>
+        internal static string OptionSelectVersion {
+            get {
+                return ResourceManager.GetString("OptionSelectVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set the architecture to {ARCH} (in the form os-cpu)..
+        /// </summary>
+        internal static string OptionSetArch {
+            get {
+                return ResourceManager.GetString("OptionSetArch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set the implementation ID to {DIGEST}..
+        /// </summary>
+        internal static string OptionSetID {
+            get {
+                return ResourceManager.GetString("OptionSetID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set the canonical feed {URI}..
+        /// </summary>
+        internal static string OptionSetInterfaceUri {
+            get {
+                return ResourceManager.GetString("OptionSetInterfaceUri", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set the main executable to {EXEC}..
+        /// </summary>
+        internal static string OptionSetMain {
+            get {
+                return ResourceManager.GetString("OptionSetMain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set the release date to {DATE}. Use the format YYYY-MM-DD or 'today'. Leave empty to remove the date..
+        /// </summary>
+        internal static string OptionSetReleased {
+            get {
+                return ResourceManager.GetString("OptionSetReleased", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set the stability rating to {STABILITY}..
+        /// </summary>
+        internal static string OptionSetStability {
+            get {
+                return ResourceManager.GetString("OptionSetStability", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set the version number to {VERSION}..
+        /// </summary>
+        internal static string OptionSetVersion {
+            get {
+                return ResourceManager.GetString("OptionSetVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mark the latest testing implementation as stable..
+        /// </summary>
+        internal static string OptionStable {
+            get {
+                return ResourceManager.GetString("OptionStable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to More verbose output. Use twice for even more verbose output..
+        /// </summary>
+        internal static string OptionVerbose {
+            get {
+                return ResourceManager.GetString("OptionVerbose", resourceCulture);
             }
         }
         
@@ -174,6 +399,15 @@ namespace ZeroInstall.Publish.Cli.Properties {
         internal static string OptionXmlSign {
             get {
                 return ResourceManager.GetString("OptionXmlSign", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Supported values: {0}.
+        /// </summary>
+        internal static string SupportedValues {
+            get {
+                return ResourceManager.GetString("SupportedValues", resourceCulture);
             }
         }
         
