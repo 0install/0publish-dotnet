@@ -12,11 +12,11 @@
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
       <environment insert="." name="PATH"/>
     </requires>
-    <command name="run" path="0publish.exe">
-      <runner command="run" interface="https://apps.0install.net/dotnet/clr.xml" version="4.8.."/>
+    <command name="run" path="0publish.dll">
+      <runner interface="https://apps.0install.net/dotnet/runtime.xml" version="8.0.."/>
     </command>
 
-    <implementation version="{version}" local-path="artifacts/Release/net48">
+    <implementation version="{version}" local-path="artifacts/Release/net8.0/publish">
       <manifest-digest/>
       <archive href="0publish-dotnet-{version}.tar.zst"/>
     </implementation>

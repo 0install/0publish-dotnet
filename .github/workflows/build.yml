@@ -3,7 +3,7 @@ on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       # Prepare
       - uses: actions/checkout@v7
@@ -18,7 +18,7 @@ jobs:
 
       # Build
       - name: Build
-        run: .\build.ps1 ${{steps.gitversion.outputs.nuGetVersion}}
+        run: ./build.sh ${{steps.gitversion.outputs.nuGetVersion}}
       - name: Upload artifacts
         uses: actions/upload-artifact@v7
         with:
@@ -30,10 +30,12 @@ jobs:
         if: github.ref_type == 'tag'
         id: tag_message
         run: |
-          "message<<EOF" >> $env:GITHUB_OUTPUT
-          git fetch -f origin tag ${{github.ref_name}}
-          git tag --format="%(contents)" -l ${{github.ref_name}} >> $env:GITHUB_OUTPUT
-          "EOF" >> $env:GITHUB_OUTPUT
+          {
+            echo "message<<EOF"
+            git fetch -f origin tag ${{github.ref_name}}
+            git tag --format="%(contents)" -l ${{github.ref_name}}
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
       - name: Create GitHub Release
         if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v3
