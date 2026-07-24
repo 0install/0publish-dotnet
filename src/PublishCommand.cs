@@ -97,11 +97,8 @@ public sealed class PublishCommand
         options.Add("h|help|?", () => Resources.OptionHelp, _ =>
         {
             Console.WriteLine(Resources.Usage);
-            // ReSharper disable LocalizableElement
+            // ReSharper disable once LocalizableElement
             Console.WriteLine("\t0publish [OPTIONS] FEED-FILE");
-            Console.WriteLine("\t0publish capture --help");
-            Console.WriteLine("\t0publish bootstrap --help");
-            // ReSharper restore LocalizableElement
             Console.WriteLine();
             Console.WriteLine(Resources.Options);
             options.WriteOptionDescriptions(Console.Out);
