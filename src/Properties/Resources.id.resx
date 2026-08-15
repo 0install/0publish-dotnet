@@ -58,8 +58,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>Berkas feed '{0}' tidak ada. Apakah ingin membuatnya?</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Silakan masukkan frasa sandi GnuPG untuk {0}:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>Opsi {0} dan {1} tidak dapat digunakan bersamaan.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>Feed-nya tidak berubah. Tidak menulis.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Tanggal rilis tidak valid. Gunakan format {0} atau '{1}'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -71,16 +87,52 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <value>Argumen yang hilang. Coba {0}</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Tidak ditemukan editor teks. Coba atur variabel lingkungan ` {0} `.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Tidak dapat menemukan file feed yang cocok.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Tambahkan ringkasan manifes tambahan menggunakan algoritma {ALG}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Tambahkan implementasi yang terdapat di {FEED} ke feed ini, dan tempatkan di grup yang paling sesuai.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Mengunduh arsip yang hilang, menghitung ringkasan manifes, dll.</value>
+    <value>Mengunduh arsip yang hilang, menghitung ringkasan manifes, dan sebagainya.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Tambahkan implementasi baru dengan nomor versi {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Hanya gunakan subdirektori {DIR} dari arsip tersebut.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Gunakan {FILE} sebagai salinan lokal dari arsip tersebut.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Tambahkan arsip yang dapat diunduh dari {URL} ke dalam implementasi.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Gabungkan semua feed yang ditentukan ke dalam satu katalog {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Membuat berkas feed jika belum ada, tanpa meminta konfirmasi.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Edit feed tersebut menggunakan editor teks yang ditentukan oleh variabel lingkungan ` {EDITOR} `.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -95,12 +147,60 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <value>Kunci yang akan digunakan untuk penandatanganan (jika Anda memiliki lebih dari satu kunci, atau jika Anda ingin menandatangani ulang dengan kunci yang berbeda).</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Gunakan algoritma {ALG} untuk menghasilkan ringkasan manifes arsip yang baru ditambahkan. Dapat ditentukan beberapa kali.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Opsi ini hanya dapat digunakan bersama dengan {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opsi:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Gunakan opsi --set-* pada implementasi dengan nomor versi {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Tentukan arsitektur menjadi {ARCH} (dalam format os-cpu).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Tetapkan ID implementasi menjadi {DIGEST}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Tetapkan feed kanonik {URI}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Tetapkan file eksekusi utama ke {EXEC}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Tentukan tanggal rilis menjadi {DATE}. Gunakan format YYYY-MM-DD atau 'today'. Biarkan kosong untuk menghapus tanggal.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Atur peringkat stabilitas menjadi " {STABILITY}".</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Atur nomor versi menjadi {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Tandai implementasi pengujian terbaru sebagai stabil.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Hapus semua tanda tangan yang ada.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Hasil keluaran yang lebih rinci. Gunakan dua kali untuk hasil keluaran yang lebih rinci lagi.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -109,6 +209,10 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Tambahkan blok tanda tangan XML. (Semua umpan jarak jauh harus ditandatangani.)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Nilai yang didukung: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

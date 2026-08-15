@@ -58,9 +58,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>Het feedbestand '{0}' bestaat niet. Wilt u het aanmaken?</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Voer de GnuPG wachtwoordzin in voor {0}:</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>De opties {0} en {1} kunnen niet samen worden gebruikt.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>De feed is ongewijzigd. Er wordt niet geschreven.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Ongeldige releasedatum. Gebruik de indeling {0} of '{1}'.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk is toegestaan.
@@ -71,17 +87,53 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <value>Ontbrekende argumenten. Probeer {0}</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Er is geen teksteditor gevonden. Probeer de omgevingsvariabele ` {0} ` in te stellen.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Kan geen overeenkomende feed-bestanden vinden.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Voeg extra manifest-digests toe met behulp van het algoritme {ALG}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Voeg de implementaties in {FEED} toe aan deze feed en plaats ze in de meest logische groep.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Download ontbrekende archieven, bereken manifest digests, enzovoort.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Voeg een nieuwe implementatie toe met het versienummer {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Gebruik alleen de submap {DIR} van het archief.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Gebruik {FILE} als de lokale kopie van het archief.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Voeg een archief toe aan een implementatie dat kan worden gedownload vanaf {URL}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combineert alle opgegeven feeds in één catalogus {FILE}.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Maak het feedbestand aan als het nog niet bestaat, zonder om bevestiging te vragen.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Bewerk de feed met de teksteditor die is opgegeven door de omgevingsvariabele ` {EDITOR} `.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>Gebruik {PASS} om de geheime sleutel van GnuPG te ontgrendelen.</value>
@@ -95,13 +147,61 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <value>Sleutel om te gebruiken voor het ondertekenen (als je er meer dan één hebt, of als je wilt ondertekenen met een andere sleutel).</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Gebruik het algoritme {ALG} voor manifest-digests van nieuw toegevoegde archieven. Kan meerdere keren worden opgegeven.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Deze optie kan alleen worden gebruikt in combinatie met {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opties:</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Pas de --set-*-opties toe op de implementaties met het versienummer {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Stel de architectuur in op {ARCH} (in de vorm os-cpu).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Stel de implementatie-ID in op {DIGEST}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Stel de canonieke feed in op {URI}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Stel het hoofdprogramma in op {EXEC}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Stel de releasedatum in op {DATE}. Gebruik de indeling JJJJ-MM-DD of 'today'. Laat het veld leeg om de datum te verwijderen.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Stel de stabiliteitsclassificatie in op ' {STABILITY}'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Stel het versienummer in op {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Markeer de nieuwste testimplementatie als stabiel.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Verwijdert bestaande handtekeningen.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Uitgebreidere uitvoer. Gebruik deze optie twee keer voor een nog uitgebreidere uitvoer.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Geeft versie-informatie weer.</value>
@@ -110,6 +210,10 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Voeg een XML handtekeningblok toe. (Alle externe feeds moeten worden ondertekend.)</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Ondersteunde waarden: {0}</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Gebruik:</value>

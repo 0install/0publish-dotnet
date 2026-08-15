@@ -58,29 +58,81 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>Plik źródłowy „{0} ” nie istnieje. Czy chcesz go utworzyć?</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Wprowadź hasło GnuPG dla {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>Opcji {0} i {1} nie można używać jednocześnie.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>Kanał pozostaje bez zmian. Nie piszę.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Nieprawidłowa data wydania. Należy użyć formatu „ {0} ” lub „{1} ”.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Program ten jest dostarczany BEZ ŻADNEJ GWARANCJI, w zakresie dozwolonym przez prawo.
-Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji GNU Lesser General Public License.</value>
+Można rozpowszechniać kopie tego programu na warunkach określonyc h w licencji GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
     <value>Brak argumentów. Spróbuj {0}</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Nie znaleziono edytora tekstu. Spróbuj ustawić zmienną środowiskową {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nie znaleziono żadnych pasujących plików kanałów.</value>
+    <value>Nie można znaleźć żadnych pasujących plików kanałów.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Dodaj dodatkowe skróty manifestu przy użyciu algorytmu {ALG}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Dodaj implementacje z {FEED} do tego kanału, umieszczając je w najbardziej odpowiedniej grupie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Pobiera brakujące archiwa, oblicza skróty manifestów itp.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Dodaj nową implementację o numerze wersji {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Należy korzystać wyłącznie z podkatalogu „ {DIR} ” znajdującego się w archiwum.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Jako lokalną kopię archiwum należy użyć pliku {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Dodaj do implementacji archiwum, które można pobrać ze strony {URL}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Połącz wszystkie wskazane źródła w jeden katalog {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Jeśli plik feed jeszcze nie istnieje, należy go utworzyć bez wyświetlania monitu.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Edytuj plik źródłowy za pomocą edytora tekstu określonego przez zmienną środowiskową {EDITOR}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -95,12 +147,60 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji 
     <value>Klucz do podpisywania (jeśli masz więcej niż jeden lub chcesz podpisać ponownie innym kluczem).</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Wykorzystuje algorytm {ALG} do generowania skrótów manifestów nowo dodanych archiwów. Można podać tę opcję wielokrotnie.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Z tej opcji można korzystać wyłącznie w połączeniu z opcją {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opcje:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Zastosuj opcje --set-* do implementacji o numerze wersji {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Ustaw architekturę na {ARCH} (w formacie os-cpu).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Ustaw identyfikator implementacji na {DIGEST}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Ustaw kanoniczny kanał {URI}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Ustaw główny plik wykonywalny na {EXEC}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Ustaw datę wydania na {DATE}. Użyj formatu RRRR-MM-DD lub „today”. Pozostaw puste pole, aby usunąć datę.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Ustaw poziom stabilności na „ {STABILITY} ”.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Ustaw numer wersji na {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Oznacz najnowszą wersję testową jako stabilną.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Usuń wszystkie istniejące sygnatury.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Bardziej szczegółowy wynik. Użyj dwukrotnie, aby uzyskać jeszcze bardziej szczegółowy wynik.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -109,6 +209,10 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji 
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Dodaj blok podpisu XML. (Wszystkie zdalne źródła muszą być podpisane.)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Obsługiwane wartości: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

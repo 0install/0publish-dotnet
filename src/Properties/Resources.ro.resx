@@ -58,8 +58,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>Fișierul de alimentare „{0} ” nu există. Doriți să îl creați?</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Vă rugăm să introduceți fraza de acces GnuPG pentru {0}:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>Opțiunile {0} și {1} nu pot fi utilizate împreună.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>Fluxul rămâne neschimbat. Nu se scrie nimic.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Data de lansare este nevalidă. Utilizați formatul „ {0} ” sau „{1} ”.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -71,16 +87,52 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <value>Argumente lipsă. Încercați {0}</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Nu s-a găsit niciun editor de text. Încercați să setați variabila de mediu {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Nu s-au găsit fișiere de flux corespunzătoare.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Adăugați rezumate suplimentare ale manifestului folosind algoritmul {ALG}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Adăugați implementările din {FEED} la acest feed, plasându-le în grupul cel mai potrivit.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Descărcă arhivele lipsă, calculează digesturile manifestului etc.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Adăugați o nouă implementare cu numărul de versiune {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Utilizați numai subdirectorul „ {DIR} ” din arhivă.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Utilizați {FILE} ca copie locală a arhivei.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Adăugați la o implementare o arhivă care poate fi descărcată de pe {URL}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combină toate sursele specificate într-un singur catalog {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Creează fișierul de alimentare dacă acesta nu există încă, fără a solicita confirmare.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Editează fluxul cu editorul de text specificat de variabila de mediu {EDITOR}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -95,12 +147,60 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <value>Cheia care trebuie utilizată pentru semnare (dacă aveți mai multe chei sau dacă doriți să resemnați cu o altă cheie).</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Utilizează algoritmul {ALG} pentru generarea digesturilor de manifest ale arhivelor nou adăugate. Poate fi specificat de mai multe ori.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Această opțiune poate fi utilizată numai împreună cu {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opțiuni:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Aplicați opțiunile --set-* la implementările cu numărul de versiune {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Setați arhitectura la {ARCH} (în formatul os-cpu).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Setați ID-ul de implementare la {DIGEST}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Setați sursa canonică {URI}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Setați executabilul principal la {EXEC}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Setați data lansării la {DATE}. Utilizați formatul AAAA-LL-ZZ sau „today”. Lăsați câmpul gol pentru a elimina data.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Setați nivelul de stabilitate la „ {STABILITY} ”.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Setați numărul versiunii la {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Marchează cea mai recentă implementare de testare ca fiind stabilă.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Elimină toate semnăturile existente.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Afișare mai detaliată. Utilizați de două ori pentru o afișare și mai detaliată.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -109,6 +209,10 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Adăugați un bloc de semnătură XML. (Toate fluxurile la distanță trebuie să fie semnate.)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Valori acceptate: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

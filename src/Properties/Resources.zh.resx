@@ -58,8 +58,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>源文件“{0} ”不存在。要创建该文件吗？</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>请输入{0} 的GnuPG密码短语：</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>选项{0} 和{1} 不能同时使用。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>源内容未变。暂不发布。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>发布日期无效。请使用格式{0} 或 '{1}'。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -71,17 +87,53 @@
     <value>缺少参数。请尝试 {0}</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>未找到文本编辑器。请尝试设置{0} 环境变量。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>无法找到任何匹配的源文件。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>使用算法{ALG} 添加额外的清单摘要。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>将{FEED} 中的实现添加到此源中，并将其归入最合适的组。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>下载缺失的归档文件、计算清单摘要等。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>添加一个版本号为{VERSION} 的新实现。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>仅使用存档中的{DIR} 子目录。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>请将{FILE} 作为存档的本地副本。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>将一个可从{URL} 下载的存档文件添加到实现中。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>将所有指定的信息源合并为一个目录 {FILE}。</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>如果源文件尚不存在，则直接创建，不进行提示。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>使用{EDITOR} 环境变量指定的文本编辑器编辑源文件。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>使用 {PASS} 解锁 GnuPG 密钥。</value>
@@ -95,12 +147,60 @@
     <value>用于签名的密钥（如果您拥有多个密钥，或者希望使用其他密钥重新签名）。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>使用算法{ALG} 生成新添加归档文件的清单摘要。该参数可多次指定。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>此选项只能与{0} 配合使用。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>选项：</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>将 --set-* 选项应用于版本号为{VERSION} 的实现。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>将架构设置为{ARCH} （格式为os-cpu）。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>将实现 ID 设置为{DIGEST} 。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>将标准源设置为{URI} 。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>将主可执行文件设置为{EXEC} 。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>将发布日期设置为{DATE} 。请使用 YYYY-MM-DD 格式或“today”。留空则去除日期。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>将稳定性等级设置为{STABILITY} 。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>将版本号设置为{VERSION} 。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>将最新的测试版本标记为稳定版。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>删除所有现有的签名。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>显示更详细的输出。若需显示更详细的输出，请连续执行两次。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -109,6 +209,10 @@
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>添加一个 XML 签名块。（所有远程源都必须经过签名。）</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>支持的值：{0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

@@ -58,8 +58,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>Soubor se zdroji „{0} “ neexistuje. Chcete jej vytvořit?</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Zadejte prosím heslo GnuPG pro {0}:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>Možnosti {0} a {1} nelze použít současně.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>Zdroje zůstávají beze změny. Nepíše se.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Neplatné datum vydání. Použijte formát {0} nebo '{1}'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -71,16 +87,52 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <value>Chybí argumenty. Zkuste {0}</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Nebyl nalezen žádný textový editor. Zkuste nastavit proměnnou prostředí {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Nelze najít žádné odpovídající soubory kanálů.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Přidejte další souhrny manifestů pomocí algoritmu {ALG}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Přidejte implementace z adresáře {FEED} do tohoto kanálu a zařaďte je do nejvhodnější skupiny.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Stahuje chybějící archivy, vypočítává souhrny manifestů atd.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Přidejte novou implementaci s číslem verze {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Používejte pouze podadresář {DIR} v archivu.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Jako lokální kopii archivu použijte soubor {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Přidejte do implementace archiv, který lze stáhnout z adresy {URL}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Sloučí všechny zadané zdroje do jediného katalogu {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Pokud soubor feed ještě neexistuje, vytvoří jej bez dotazu.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Upravte zdroj pomocí textového editoru určeného proměnnou prostředí {EDITOR}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,15 +144,63 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klíč, který se má použít k podepisování (pokud máte více klíčů nebo pokud chcete podepsat znovu jiným klíčem).</value>
+    <value>Klíč, který se má použít k podepisování (pokud máte více klíčů nebo pokud chcete provést nové podepsání jiným klíčem).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Pro výpočet hashů manifestů nově přidaných archivů použijte algoritmus {ALG}. Lze zadat vícekrát.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Tuto volbu lze použít pouze ve spojení s příkazem „ {0} “.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Možnosti:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Použijte volby --set-* u implementací s číslem verze {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Nastavte architekturu na {ARCH} (ve formátu os-cpu).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Nastavte ID implementace na {DIGEST}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Nastavte kanonický zdroj {URI}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Nastavte hlavní spustitelný soubor na {EXEC}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Nastavte datum vydání na {DATE}. Použijte formát RRRR-MM-DD nebo „today“. Chcete-li datum odstranit, ponechte pole prázdné.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Nastavte hodnocení stability na „ {STABILITY} “.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Nastavte číslo verze na {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Označte nejnovější testovací implementaci jako stabilní.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Odstraňte všechny existující podpisy.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Podrobnější výstup. Pro ještě podrobnější výstup použijte dvakrát.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -108,7 +208,11 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Přidejte blok s XML podpisem. (Všechny vzdálené zdroje musí být podepsány.)</value>
+    <value>Přidejte blok XML podpisu. (Všechny vzdálené zdroje musí být podepsány.)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Podporované hodnoty: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

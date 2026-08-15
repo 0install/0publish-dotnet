@@ -58,8 +58,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>フィードファイル「{0} 」が存在しません。作成しますか？</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>{0} の GnuPG パスフレーズを入力してください：</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>{0} オプションと{1} オプションは併用できません。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>フィードに変更はありません。書き込みを行っていません。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>リリース日が不正です。{0} または '{1}' の形式を使用してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -71,16 +87,52 @@
     <value>引数が足りません。{0} を試してください</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>テキストエディタが見つかりませんでした。{0} 環境変数を設定してみてください。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>一致するフィードファイルが見つかりませんでした。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>アルゴリズム{ALG} を使用して、マニフェストのダイジェストを追加します。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>{FEED} にある実装を、このフィードに追加し、最も適切なグループに分類してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>不足しているアーカイブをダウンロードしたり、マニフェストのダイジェストを計算したりします。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>バージョン番号{VERSION} の新しい実装を追加します。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>アーカイブ内の「{DIR} 」サブディレクトリのみを使用してください。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>アーカイブのローカルコピーとして、{FILE} を使用してください。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>{URL} からダウンロード可能なアーカイブを、実装に追加します。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>指定されたすべてのフィードを単一のカタログに統合します{FILE} 。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>feedファイルがまだ存在しない場合は、確認のメッセージを表示せずに作成します。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>{EDITOR} 環境変数で指定されたテキストエディタを使用して、フィードを編集します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -95,12 +147,60 @@
     <value>署名に使用する鍵（複数の鍵がある場合、または別の鍵で再署名したい場合）。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>新しく追加されたアーカイブのマニフェストダイジェストには、{ALG} アルゴリズムを使用します。複数回指定可能です。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>このオプションは、{0} と組み合わせてのみ使用できます。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>オプション：</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>バージョン番号が{VERSION} の実装に対して、--set-* オプションを適用してください。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>アーキテクチャを{ARCH} （os-cpuの形式）に設定します。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>実装IDを{DIGEST} に設定してください。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>標準フィード{URI} を設定してください。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>メインの実行ファイルを{EXEC} に設定してください。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>リリース日を{DATE} に設定します。YYYY-MM-DD形式または「today」を使用してください。日付を削除するには、空欄のままにしてください。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>安定性評価を{STABILITY} に設定します。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>バージョン番号を{VERSION} に設定します。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>最新のテスト用実装を安定版としてマークします。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>既存の署名をすべて削除します。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>より詳細な出力を表示します。さらに詳細な出力を得るには、このオプションを2回指定してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -109,6 +209,10 @@
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>XML署名ブロックを追加します。（すべてのリモートフィードには署名が必要です。）</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>サポートされている値：{0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
