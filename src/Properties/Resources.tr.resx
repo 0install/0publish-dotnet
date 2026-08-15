@@ -60,6 +60,7 @@
   </resheader>
   <data name="AskCreateFeed" xml:space="preserve">
     <value>'{0}' akış dosyası yok. Oluşturulsun mu?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>{0} için GnuPG parolasını yazın:</value>
@@ -67,12 +68,15 @@
   </data>
   <data name="ExclusiveOptions" xml:space="preserve">
     <value>{0} ile {1} seçenekleri birlikte kullanılamaz.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
     <value>Akış değişmedi. Yazılmıyor.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
-    <value>Yayım tarihi geçersiz. {0} biçimini ya da '{1}' değerini kullanın.</value>
+    <value>Yayınlanma tarihi geçersiz. {0} biçimini ya da '{1}' değerini kullanın.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Bu yazılım, yasaların izin verdiği ölçüde KESİNLİKLE HERHANGİ BİR GARANTİ OLMADAN sunulur.
@@ -84,7 +88,8 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEditorFound" xml:space="preserve">
-    <value>Metin düzenleyici bulunamadı. {0} ortam değişkenini ayarlamayı deneyin.</value>
+    <value>Herhangi bir yazı düzenleyici bulunamadı. {0} ortam değişkenini ayarlamayı deneyin.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Eşleşen herhangi bir akış dosyası bulunamadı.</value>
@@ -92,25 +97,31 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
   </data>
   <data name="OptionAddDigest" xml:space="preserve">
     <value>{ALG} algoritmasını kullanarak ek öge listesi karmaları ekler.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
     <value>{FEED} içindeki uygulamaları bu akışa ekler ve en uygun grubun içine yerleştirir.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Eksik arşivleri indirin, öge listesi dosyalarını hesaplayın, vb.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddVersion" xml:space="preserve">
-    <value>{VERSION} sürüm numarasına sahip yeni bir uygulama ekler.</value>
+    <value>{VERSION} sürüm numarası ile yeni bir uygulama ekler.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionArchiveExtract" xml:space="preserve">
     <value>Arşiv dosyasının yalnızca {DIR} alt klasörünü kullanır.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionArchiveFile" xml:space="preserve">
     <value>Arşiv dosyasının yerel kopyası olarak {FILE} kullanılır.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionArchiveUrl" xml:space="preserve">
-    <value>{URL} adresinden indirilebilecek bir arşiv dosyasını bir uygulamaya ekler.</value>
+    <value>Bir uygulama {URL} adresinden indirilebilecek bir arşiv dosyası ekler.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Belirtilen tüm akışları tek bir katalogda {FILE} birleştirin.</value>
@@ -118,9 +129,11 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
   </data>
   <data name="OptionCreate" xml:space="preserve">
     <value>Akış dosyası henüz yoksa sormadan oluşturur.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
-    <value>Akışı {EDITOR} ortam değişkeninde belirtilen metin düzenleyici ile düzenler.</value>
+    <value>Akışı {EDITOR} ortam değişkeninde belirtilen yazı düzenleyici ile düzenler.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>GnuPG gizli anahtar kilidini açmak için {PASS} kullanın.</value>
@@ -136,46 +149,58 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
   </data>
   <data name="OptionManifestAlgorithm" xml:space="preserve">
     <value>Yeni eklenen arşiv dosyalarının öge listesi karmaları için {ALG} algoritmasını kullanır. Birden fazla kez belirtilebilir.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
     <value>Bu seçenek yalnızca {0} ile birlikte kullanılabilir.</value>
-  </data>
-  <data name="OptionSelectVersion" xml:space="preserve">
-    <value>--set-* seçeneklerini {VERSION} sürüm numarasına sahip uygulamalara uygular.</value>
-  </data>
-  <data name="OptionSetArch" xml:space="preserve">
-    <value>Mimariyi {ARCH} olarak ayarlar (os-cpu biçiminde).</value>
-  </data>
-  <data name="OptionSetID" xml:space="preserve">
-    <value>Uygulama kimliğini {DIGEST} olarak ayarlar.</value>
-  </data>
-  <data name="OptionSetInterfaceUri" xml:space="preserve">
-    <value>Kanonik akış {URI} adresini ayarlar.</value>
-  </data>
-  <data name="OptionSetMain" xml:space="preserve">
-    <value>Ana yürütülebilir dosyayı {EXEC} olarak ayarlar.</value>
-  </data>
-  <data name="OptionSetReleased" xml:space="preserve">
-    <value>Yayım tarihini {DATE} olarak ayarlar. YYYY-MM-DD biçimini ya da 'today' değerini kullanın. Tarihi kaldırmak için boş bırakın.</value>
-  </data>
-  <data name="OptionSetStability" xml:space="preserve">
-    <value>Kararlılık derecesini {STABILITY} olarak ayarlar.</value>
-  </data>
-  <data name="OptionSetVersion" xml:space="preserve">
-    <value>Sürüm numarasını {VERSION} olarak ayarlar.</value>
-  </data>
-  <data name="OptionStable" xml:space="preserve">
-    <value>En son testing uygulamasını stable olarak işaretler.</value>
-  </data>
-  <data name="OptionVerbose" xml:space="preserve">
-    <value>Ayrıntılı bir çıktı üretir. Daha ayrıntılı çıktı için iki kez kullanın.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Seçenekler:</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Uygulamalara --set-* seçeneklerini {VERSION} sürüm numarası ile uygular.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Mimariyi {ARCH} olarak ayarlar (os-cpu biçiminde).</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Uygulama kimliğini {DIGEST} olarak ayarlar.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Kanonik akış {URI} adresini ayarlar.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Ana yürütülebilir dosyayı {EXEC} olarak ayarlar.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Yayınlanma tarihini {DATE} olarak ayarlar. YYYY-MM-DD biçimini ya da 'today' değerini kullanın. Tarihi kaldırmak için boş bırakın.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Kararlılık derecesini {STABILITY} olarak ayarlar.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Sürüm numarasını {VERSION} olarak ayarlar.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Son deneme uygulamasını kararlı olarak işaretler.</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Var olan herhangi bir imzayı kaldırın.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Ayrıntılı bir çıktı üretir. Daha ayrıntılı çıktı için iki kez kullanın.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -188,6 +213,7 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
   </data>
   <data name="SupportedValues" xml:space="preserve">
     <value>Desteklenen değerler: {0}</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Kullanım:</value>

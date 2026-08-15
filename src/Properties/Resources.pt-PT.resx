@@ -58,8 +58,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>O ficheiro de feed «{0} » não existe. Deseja criá-lo?</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Introduza a frase-passe do GnuPG para {0}:</value>
+    <value>Por favor, introduza a frase-passe do GnuPG para {0}:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>As opções {0} e {1} não podem ser utilizadas em simultâneo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>O feed permanece inalterado. Não estou a escrever.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Data de lançamento inválida. Utilize o formato {0} ou '{1}'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -71,16 +87,52 @@ Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Públi
     <value>Argumentos em falta. Tente {0}</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Não foi encontrado nenhum editor de texto. Tente definir a variável de ambiente {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Não foi possível encontrar quaisquer ficheiros de feed correspondentes.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Adicione resumos de manifesto adicionais utilizando o algoritmo {ALG}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Adicione as implementações em {FEED} a este feed, colocando-as no grupo mais adequado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Descarrega ficheiros em falta, calcula manifest digests, etc.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Adicione uma nova implementação com o número de versão {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Utilize apenas o subdiretório « {DIR} » do arquivo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Utilize {FILE} como cópia local do arquivo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Adicione um arquivo que possa ser descarregado a partir de {URL} a uma implementação.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combina todos os feeds especificados num único catálogo {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Cria o ficheiro de feed, caso ainda não exista, sem solicitar confirmação.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Edita o feed com o editor de texto especificado pela variável de ambiente {EDITOR}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,23 +144,75 @@ Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Públi
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chave a utilizar para assinar (se tiver mais do que uma, ou se pretender voltar a assinar com uma chave diferente).</value>
+    <value>Chave a utilizar para assinar (caso tenha mais do que uma ou se pretender voltar a assinar com uma chave diferente).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Utiliza o algoritmo {ALG} para obter os resumos de manifesto dos arquivos recém-adicionados. Pode ser especificado várias vezes.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Esta opção só pode ser utilizada em conjunto com o comando « {0} ».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Opções:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Aplique as opções --set-* às implementações com o número de versão {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Defina a arquitetura como « {ARCH} » (no formato «os-cpu»).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Defina o ID de implementação como {DIGEST}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Defina o feed canónico {URI}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Defina o executável principal como {EXEC}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Defina a data de lançamento como {DATE}. Utilize o formato AAAA-MM-DD ou «hoje». Deixe em branco para remover a data.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Defina a classificação de estabilidade para « {STABILITY} ».</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Defina o número da versão como {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Marcar a implementação de teste mais recente como estável.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Remova quaisquer assinaturas existentes.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Saída mais detalhada. Utilize duas vezes para obter uma saída ainda mais detalhada.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Exibe informações sobre a versão.</value>
+    <value>Apresenta informações sobre a versão.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Adicione um bloco de assinatura XML. (Todos os feeds remotos têm de estar assinados.)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Valores suportados: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

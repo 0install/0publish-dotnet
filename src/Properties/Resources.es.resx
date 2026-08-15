@@ -58,8 +58,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>El archivo de fuentes «{0} » no existe. ¿Lo creas?</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Introduce la contraseña de GnuPG para {0}:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>Las opciones « {0} » y « {1} » no se pueden utilizar conjuntamente.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>El feed no ha cambiado. No se está escribiendo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Fecha de lanzamiento no válida. Utiliza el formato « {0} » o «{1} ».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -71,20 +87,56 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <value>Faltan argumentos. Inténtalo de nuevo. {0}</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>No se ha encontrado ningún editor de texto. Intenta configurar la variable de entorno {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>No se puede encontrar ningún archivo feed coincidente.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Añade resúmenes de manifiesto adicionales utilizando el algoritmo {ALG}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Añade las implementaciones de {FEED} a este feed, colocándolas en el grupo más adecuado.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Descarga archivos faltantes, calcula los resúmenes de manifiestos, etc.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Añade una nueva implementación con el número de versión {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Utiliza únicamente el subdirectorio « {DIR} » del archivo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Utiliza {FILE} como copia local del archivo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Añade a una implementación un archivo que se puede descargar desde {URL}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combina todas las fuentes especificadas en un único catálogo {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Crea el archivo de fuentes si aún no existe, sin pedir confirmación.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Edita el feed con el editor de texto especificado por la variable de entorno {EDITOR}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Utiliza {PASS} para desbloquear la clave secreta de GnuPG.</value>
+    <value>Utiliza « {PASS} » para desbloquear la clave secreta de GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -95,12 +147,60 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <value>Clave a utilizar para firmar (si tienes más de una, o si quieres volver a firmar con una clave diferente).</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Utiliza el algoritmo {ALG} para obtener los resúmenes de los manifiestos de los archivos recién añadidos. Se puede especificar varias veces.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Esta opción solo se puede utilizar junto con {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opciones:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Aplica las opciones --set-* a las implementaciones con el número de versión {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Configura la arquitectura como « {ARCH} » (en el formato «os-cpu»).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Establece el ID de implementación en {DIGEST}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Configura la fuente canónica {URI}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Configura el ejecutable principal como {EXEC}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Establece la fecha de lanzamiento en {DATE}. Utiliza el formato AAAA-MM-DD o «hoy». Déjalo en blanco para eliminar la fecha.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Establece el nivel de estabilidad en « {STABILITY} ».</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Establece el número de versión en {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Marca la última implementación de prueba como estable.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Elimina cualquier firma existente.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Salida más detallada. Úsala dos veces para obtener una salida aún más detallada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -109,6 +209,10 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Añade un bloque de firma XML. (Todas las fuentes remotas deben estar firmadas.)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Valores admitidos: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

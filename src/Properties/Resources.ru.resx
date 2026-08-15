@@ -58,8 +58,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>Файл списка обновлений «{0} » не существует. Создать его?</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Введите пароль GnuPG для {0}:</value>
+    <value>Введите парольную фразу GnuPG для {0}:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>Параметры {0} и {1} нельзя использовать одновременно.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>Лента новостей не изменилась. Не пишу.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Неверная дата выпуска. Используйте формат {0} или '{1}'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -71,16 +87,52 @@
     <value>Отсутствуют аргументы. Попробуйте {0}</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Не найден текстовый редактор. Попробуйте установить переменную среды {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Невозможно найти ни одного подходящего feed-файла.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Добавьте дополнительные дайджесты манифеста, используя алгоритм {ALG}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Добавьте реализации из {FEED} в этот фид, поместив их в наиболее подходящую группу.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Загружает отсутствующие архивы, вычисляет дайджесты манифестов и т. д.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Добавьте новую реализацию с номером версии {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Используйте только подкаталог {DIR} из архива.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Используйте {FILE} в качестве локальной копии архива.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Добавьте в реализацию архив, который можно скачать по адресу {URL}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Объединяет все указанные каналы в единый каталог {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Создать файл канала, если он ещё не существует, без запроса подтверждения.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Отредактируйте канал с помощью текстового редактора, указанного переменной среды {EDITOR}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -88,19 +140,67 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Показать встроенную справку.</value>
+    <value>Отобразить встроенную справку.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
     <value>Ключ для подписи (если у вас их несколько, или если вы хотите подписать повторно другим ключом).</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Использует алгоритм {ALG} для вычисления дайджестов манифестов вновь добавленных архивов. Может указываться несколько раз.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Этот параметр можно использовать только вместе с {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Параметры:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Применяйте опции --set-* к реализациям с номером версии {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Укажите архитектуру в формате « {ARCH} » (в виде «os-cpu»).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Установите идентификатор реализации равным {DIGEST}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Установите канонический канал {URI}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Укажите в качестве главного исполняемого файла {EXEC}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Укажите дату выпуска в формате {DATE}. Используйте формат ГГГГ-ММ-ДД или «today». Оставьте поле пустым, чтобы удалить дату.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Установите рейтинг стабильности на « {STABILITY} ».</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Установите номер версии в значение {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Пометить последнюю тестовую реализацию как стабильную.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Удалите все существующие подписи.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Более подробный вывод. Используйте дважды для ещё более подробного вывода.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -109,6 +209,10 @@
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Добавьте блок XML-подписи. (Все удаленные каналы должны быть подписаны.)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Поддерживаемые значения: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

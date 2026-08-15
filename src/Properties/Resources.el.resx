@@ -58,9 +58,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AskCreateFeed" xml:space="preserve">
+    <value>Το αρχείο τροφοδοσίας «{0} » δεν υπάρχει. Να το δημιουργήσετε;</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Παρακαλούμε εισάγετε την συνθηματική φράση για το GnuPG {0}:</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="ExclusiveOptions" xml:space="preserve">
+    <value>Οι επιλογές {0} και {1} δεν μπορούν να χρησιμοποιηθούν ταυτόχρονα.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FeedUnchanged" xml:space="preserve">
+    <value>Η ροή παραμένει αμετάβλητη. Δεν γράφω.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidReleaseDate" xml:space="preserve">
+    <value>Μη έγκυρη ημερομηνία έκδοσης. Χρησιμοποιήστε τη μορφή {0} ή '{1}'.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Το πρόγραμμα έρχεται με ΑΠΟΛΥΤΩΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, στο βαθμό που επιτρέπεται από το νόμο.
@@ -71,17 +87,53 @@
     <value>Λείπουν επιχειρήματα. Δοκιμάστε {0}</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="NoEditorFound" xml:space="preserve">
+    <value>Δεν βρέθηκε πρόγραμμα επεξεργασίας κειμένου. Δοκιμάστε να ορίσετε τη μεταβλητή περιβάλλοντος {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Αδυναμία εύρεσης των αρχείων που ταιριάζουν με τις τροφοδοσίες.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionAddDigest" xml:space="preserve">
+    <value>Προσθέστε επιπλέον συνοπτικά αρχεία manifest χρησιμοποιώντας τον αλγόριθμο {ALG}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAddFrom" xml:space="preserve">
+    <value>Προσθέστε τις υλοποιήσεις που βρίσκονται στο {FEED} σε αυτή τη ροή, τοποθετώντας τις στην πιο κατάλληλη ομάδα.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Λήψη αρχείων που λείπουν, υπολογισμος δηλωτικου, κλπ...</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionAddVersion" xml:space="preserve">
+    <value>Προσθέστε μια νέα υλοποίηση με τον αριθμό έκδοσης {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveExtract" xml:space="preserve">
+    <value>Χρησιμοποιήστε μόνο τον υποκατάλογο « {DIR} » του αρχείου.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveFile" xml:space="preserve">
+    <value>Χρησιμοποιήστε το αρχείο {FILE} ως τοπικό αντίγραφο του αρχείου.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionArchiveUrl" xml:space="preserve">
+    <value>Προσθέστε σε μια υλοποίηση ένα αρχείο που μπορεί να κατεβαστεί από τη διεύθυνση {URL}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Συνδυάστε όλες τις καθορισμένες τροφοδοσίες σε ένα ενιαίο κατάλογο {FILE}.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionCreate" xml:space="preserve">
+    <value>Δημιουργεί το αρχείο τροφοδοσίας, εάν δεν υπάρχει ακόμη, χωρίς να ζητήσει επιβεβαίωση.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEdit" xml:space="preserve">
+    <value>Επεξεργαστείτε τη ροή με τον επεξεργαστή κειμένου που καθορίζεται από τη μεταβλητή περιβάλλοντος {EDITOR}.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>Χρήση {PASS} για να ξεκλειδώσετε το μυστικό κλειδί του GnuPG.</value>
@@ -95,13 +147,61 @@
     <value>Κλειδί για την χρήση υπογραφής (αν έχετε περισσότερα από ενα, ή αν θέλετε να υπογράψετε ξανά με διαφορετικό κλειδί).</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionManifestAlgorithm" xml:space="preserve">
+    <value>Χρησιμοποιήστε τον αλγόριθμο {ALG} για τα συνοπτικά των αρχείων καταλόγου των αρχείων που προστέθηκαν πρόσφατα. Μπορεί να καθοριστεί πολλές φορές.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionRequires" xml:space="preserve">
+    <value>Αυτή η επιλογή μπορεί να χρησιμοποιηθεί μόνο σε συνδυασμό με το {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Επιλογές:</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionSelectVersion" xml:space="preserve">
+    <value>Εφαρμόστε τις επιλογές --set-* στις υλοποιήσεις με τον αριθμό έκδοσης {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetArch" xml:space="preserve">
+    <value>Ορίστε την αρχιτεκτονική ως « {ARCH} » (με τη μορφή «os-cpu»).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetID" xml:space="preserve">
+    <value>Ορίστε το αναγνωριστικό υλοποίησης σε {DIGEST}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetInterfaceUri" xml:space="preserve">
+    <value>Ορίστε την επίσημη πηγή {URI}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetMain" xml:space="preserve">
+    <value>Ορίστε το κύριο εκτελέσιμο αρχείο ως {EXEC}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetReleased" xml:space="preserve">
+    <value>Ορίστε την ημερομηνία κυκλοφορίας σε {DATE}. Χρησιμοποιήστε τη μορφή ΕΕΕΕ-ΜΜ-ΗΗ ή «today». Αφήστε το πεδίο κενό για να αφαιρέσετε την ημερομηνία.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetStability" xml:space="preserve">
+    <value>Ορίστε τη βαθμολογία σταθερότητας σε « {STABILITY} ».</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionSetVersion" xml:space="preserve">
+    <value>Ορίστε τον αριθμό έκδοσης σε {VERSION}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionStable" xml:space="preserve">
+    <value>Σημειώστε την πιο πρόσφατη δοκιμαστική υλοποίηση ως σταθερή.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Αφαιρέστε τυχόν υπάρχουσες υπογραφές.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionVerbose" xml:space="preserve">
+    <value>Πιο αναλυτική έξοδος. Χρησιμοποιήστε το δύο φορές για ακόμη πιο αναλυτική έξοδο.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Εμφάνιση πληροφοριών έκδοσης.</value>
@@ -110,6 +210,10 @@
   <data name="OptionXmlSign" xml:space="preserve">
     <value>Προσθήκη μπλοκ υπογραφής XML. (Όλες οι απομακρυσμένες τροφοδοσίες πρέπει να υπογράφονται.)</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="SupportedValues" xml:space="preserve">
+    <value>Υποστηριζόμενες τιμές: {0}</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Χρήση:</value>
