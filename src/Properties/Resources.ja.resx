@@ -67,15 +67,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ExclusiveOptions" xml:space="preserve">
-    <value>{0} オプションと{1} オプションは併用できません。</value>
+    <value>オプション「{0} 」と「{1} 」は併用できません。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
-    <value>フィードに変更はありません。書き込みを行っていません。</value>
+    <value>フィードに変更はありません。更新されていません。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
-    <value>リリース日が不正です。{0} または '{1}' の形式を使用してください。</value>
+    <value>リリース日が無効です。{0} または '{1}' という形式を使用してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -116,7 +116,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveFile" xml:space="preserve">
-    <value>アーカイブのローカルコピーとして、{FILE} を使用してください。</value>
+    <value>アーカイブのローカルコピーとして `{FILE} ` を使用します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveUrl" xml:space="preserve">
@@ -148,7 +148,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionManifestAlgorithm" xml:space="preserve">
-    <value>新しく追加されたアーカイブのマニフェストダイジェストには、{ALG} アルゴリズムを使用します。複数回指定可能です。</value>
+    <value>新しく追加されたアーカイブのマニフェストダイジェストには、{ALG} アルゴリズムを使用します。複数回指定することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
@@ -172,23 +172,23 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetInterfaceUri" xml:space="preserve">
-    <value>標準フィード{URI} を設定してください。</value>
+    <value>標準フィード{URI} を設定します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetMain" xml:space="preserve">
-    <value>メインの実行ファイルを{EXEC} に設定してください。</value>
+    <value>メインの実行ファイルを `{EXEC}` に設定してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">
-    <value>リリース日を{DATE} に設定します。YYYY-MM-DD形式または「today」を使用してください。日付を削除するには、空欄のままにしてください。</value>
+    <value>リリース日を{DATE} に設定します。YYYY-MM-DD形式、または「today」を使用してください。空欄のままにすると日付が削除されます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">
-    <value>安定性評価を{STABILITY} に設定します。</value>
+    <value>安定性評価を「{STABILITY} 」に設定します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetVersion" xml:space="preserve">
-    <value>バージョン番号を{VERSION} に設定します。</value>
+    <value>バージョン番号を{VERSION} に設定してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionStable" xml:space="preserve">

@@ -100,7 +100,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
-    <value>Ajoutez les implémentations présentes dans {FEED} à ce flux, en les classant dans le groupe le plus approprié.</value>
+    <value>Ajoutez les implémentations de {FEED} à ce flux, en les classant dans le groupe le plus approprié.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -108,7 +108,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddVersion" xml:space="preserve">
-    <value>Ajoutez une nouvelle implémentation avec le numéro de version {VERSION}.</value>
+    <value>Ajoute une nouvelle implémentation portant le numéro de version {VERSION}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveExtract" xml:space="preserve">
@@ -124,7 +124,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Regroupe tous les flux spécifiés dans un seul catalogue {FILE}.</value>
+    <value>Regroupe tous les flux spécifiés en un seul catalogue {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
@@ -132,7 +132,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
-    <value>Modifie le flux à l'aide de l'éditeur de texte spécifié par la variable d'environnement ` {EDITOR} `.</value>
+    <value>Modifie le flux à l'aide de l'éditeur de texte spécifié par la variable d'environnement {EDITOR}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -164,11 +164,11 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">
-    <value>Définissez l'architecture sur « {ARCH} » (sous la forme « os-cpu »).</value>
+    <value>Définissez l'architecture sur {ARCH} (sous la forme os-cpu).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetID" xml:space="preserve">
-    <value>Définissez l'ID d'implémentation sur {DIGEST}.</value>
+    <value>Définissez l'ID d'implémentation sur « {DIGEST} ».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetInterfaceUri" xml:space="preserve">

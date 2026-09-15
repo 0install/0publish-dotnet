@@ -88,7 +88,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEditorFound" xml:space="preserve">
-    <value>Nebyl nalezen žádný textový editor. Zkuste nastavit proměnnou prostředí {0}.</value>
+    <value>Nenalezen žádný textový editor. Zkuste nastavit proměnnou prostředí ` {0} `.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -96,7 +96,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddDigest" xml:space="preserve">
-    <value>Přidejte další souhrny manifestů pomocí algoritmu {ALG}.</value>
+    <value>Přidejte další souhrny manifestu pomocí algoritmu {ALG}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
@@ -128,7 +128,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
-    <value>Pokud soubor feed ještě neexistuje, vytvoří jej bez dotazu.</value>
+    <value>Pokud soubor se seznamem zdrojů ještě neexistuje, vytvoří jej bez dotazu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
@@ -144,15 +144,15 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klíč, který se má použít k podepisování (pokud máte více klíčů nebo pokud chcete provést nové podepsání jiným klíčem).</value>
+    <value>Klíč, který se použije k podepsání (pokud máte více klíčů nebo pokud chcete podepsat znovu jiným klíčem).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionManifestAlgorithm" xml:space="preserve">
-    <value>Pro výpočet hashů manifestů nově přidaných archivů použijte algoritmus {ALG}. Lze zadat vícekrát.</value>
+    <value>Pro výpočet hashových hodnot manifestů nově přidaných archivů použijte algoritmus {ALG}. Lze zadat vícekrát.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
-    <value>Tuto volbu lze použít pouze ve spojení s příkazem „ {0} “.</value>
+    <value>Tuto volbu lze použít pouze ve spojení s příkazem {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -208,7 +208,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Přidejte blok XML podpisu. (Všechny vzdálené zdroje musí být podepsány.)</value>
+    <value>Přidejte blok s XML podpisem. (Všechny vzdálené zdroje musí být podepsány.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SupportedValues" xml:space="preserve">

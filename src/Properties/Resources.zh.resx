@@ -79,8 +79,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>在法律允许的范围内，本程序不提供任何形式的保证。
-您可以根据 GNU 较少通用公共许可证的条款重新分发本程序的副本。</value>
+    <value>在法律允许的范围内，本程序绝不提供任何担保。
+您可以根据 GNU 弱通用公共许可证的条款重新分发本程序的副本。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
-    <value>将{FEED} 中的实现添加到此源中，并将其归入最合适的组。</value>
+    <value>将{FEED} 中的实现添加到此源中，并将其放入最合适的组中。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -128,11 +128,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
-    <value>如果源文件尚不存在，则直接创建，不进行提示。</value>
+    <value>如果源文件尚不存在，则不经提示直接创建该文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
-    <value>使用{EDITOR} 环境变量指定的文本编辑器编辑源文件。</value>
+    <value>使用由{EDITOR} 环境变量指定的文本编辑器编辑源文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -180,7 +180,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">
-    <value>将发布日期设置为{DATE} 。请使用 YYYY-MM-DD 格式或“today”。留空则去除日期。</value>
+    <value>将发布日期设置为{DATE} 。请使用 YYYY-MM-DD 格式或“today”。若留空则移除日期。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">
@@ -192,7 +192,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionStable" xml:space="preserve">
-    <value>将最新的测试版本标记为稳定版。</value>
+    <value>将最新的测试版本标记为稳定版本。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
@@ -200,7 +200,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVerbose" xml:space="preserve">
-    <value>显示更详细的输出。若需显示更详细的输出，请连续执行两次。</value>
+    <value>输出更详细。执行两次可获得更详细的输出。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

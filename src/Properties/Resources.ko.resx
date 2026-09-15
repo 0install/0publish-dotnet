@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
-    <value>출시 날짜가 올바르지 않습니다. {0} 또는 '{1}' 형식을 사용하십시오.</value>
+    <value>출시일이 유효하지 않습니다. {0} 또는 '{1}' 형식을 사용하십시오.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
-    <value>{FEED} 에 있는 구현체들을 이 피드에 추가하고, 가장 적절한 그룹에 배치하십시오.</value>
+    <value>{FEED} 에 있는 구현체들을 이 피드에 추가하고, 가장 적절한 그룹에 배치해 주세요.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -108,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddVersion" xml:space="preserve">
-    <value>버전 번호 {VERSION} 을 가진 새로운 구현을 추가합니다.</value>
+    <value>버전 번호 {VERSION} 인 새로운 구현체를 추가합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveExtract" xml:space="preserve">
@@ -116,11 +116,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveFile" xml:space="preserve">
-    <value>아카이브의 로컬 사본으로 {FILE} 을 사용하십시오.</value>
+    <value>아카이브의 로컬 사본으로 {FILE} 를 사용하십시오.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveUrl" xml:space="preserve">
-    <value>{URL} 에서 다운로드할 수 있는 아카이브를 구현체에 추가합니다.</value>
+    <value>{URL} 에서 다운로드할 수 있는 아카이브를 구현에 추가합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -164,7 +164,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">
-    <value>아키텍처를 {ARCH} (os-cpu 형식)로 설정합니다.</value>
+    <value>아키텍처를 {ARCH} (os-cpu 형식)으로 설정합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetID" xml:space="preserve">
@@ -180,11 +180,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">
-    <value>출시일을 {DATE} 로 설정합니다. YYYY-MM-DD 형식이나 'today'를 사용하십시오. 날짜를 제거하려면 비워 두십시오.</value>
+    <value>출시 날짜를 {DATE} 로 설정합니다. YYYY-MM-DD 형식이나 'today'를 사용하십시오. 날짜를 제거하려면 비워 두십시오.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">
-    <value>안정성 등급을 {STABILITY} 로 설정합니다.</value>
+    <value>안정성 등급을 ' {STABILITY}'로 설정합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetVersion" xml:space="preserve">

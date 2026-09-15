@@ -71,7 +71,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
-    <value>Feed-nya tidak berubah. Tidak menulis.</value>
+    <value>Umpan tidak berubah. Tidak menulis.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
@@ -92,15 +92,15 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Tidak dapat menemukan file feed yang cocok.</value>
+    <value>Tidak dapat menemukan file feed yang sesuai.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddDigest" xml:space="preserve">
-    <value>Tambahkan ringkasan manifes tambahan menggunakan algoritma {ALG}.</value>
+    <value>Tambahkan ringkasan manifest tambahan menggunakan algoritma {ALG}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
-    <value>Tambahkan implementasi yang terdapat di {FEED} ke feed ini, dan tempatkan di grup yang paling sesuai.</value>
+    <value>Tambahkan implementasi yang ada di {FEED} ke feed ini, dan tempatkan di grup yang paling sesuai.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -124,7 +124,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Gabungkan semua feed yang ditentukan ke dalam satu katalog {FILE}.</value>
+    <value>Gabungkan semua feed yang ditentukan menjadi satu katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
@@ -132,7 +132,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
-    <value>Edit feed tersebut menggunakan editor teks yang ditentukan oleh variabel lingkungan ` {EDITOR} `.</value>
+    <value>Edit feed tersebut dengan editor teks yang ditentukan oleh variabel lingkungan ` {EDITOR} `.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -148,7 +148,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionManifestAlgorithm" xml:space="preserve">
-    <value>Gunakan algoritma {ALG} untuk menghasilkan ringkasan manifes arsip yang baru ditambahkan. Dapat ditentukan beberapa kali.</value>
+    <value>Gunakan algoritma {ALG} untuk menghasilkan ringkasan manifest dari arsip yang baru ditambahkan. Dapat ditentukan beberapa kali.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
@@ -164,7 +164,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">
-    <value>Tentukan arsitektur menjadi {ARCH} (dalam format os-cpu).</value>
+    <value>Tentukan arsitekturnya menjadi {ARCH} (dalam format os-cpu).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetID" xml:space="preserve">
@@ -172,7 +172,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetInterfaceUri" xml:space="preserve">
-    <value>Tetapkan feed kanonik {URI}.</value>
+    <value>Tetapkan umpan kanonik {URI}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetMain" xml:space="preserve">

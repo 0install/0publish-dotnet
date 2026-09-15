@@ -63,11 +63,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Introduce la contraseña de GnuPG para {0}:</value>
+    <value>Introduce la contraseña de GnuPG par {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ExclusiveOptions" xml:space="preserve">
-    <value>Las opciones « {0} » y « {1} » no se pueden utilizar conjuntamente.</value>
+    <value>Las opciones {0} y {1} no se pueden utilizar a la vez.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
@@ -84,11 +84,11 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Faltan argumentos. Inténtalo de nuevo. {0}</value>
+    <value>Faltan argumentos. Inténtalo de nuevo {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEditorFound" xml:space="preserve">
-    <value>No se ha encontrado ningún editor de texto. Intenta configurar la variable de entorno {0}.</value>
+    <value>No se ha encontrado ningún editor de texto. Intenta configurar la variable de entorno ` {0} `.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -164,7 +164,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">
-    <value>Configura la arquitectura como « {ARCH} » (en el formato «os-cpu»).</value>
+    <value>Establece la arquitectura en « {ARCH} » (en el formato «os-cpu»).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetID" xml:space="preserve">

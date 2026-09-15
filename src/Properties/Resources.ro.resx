@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ExclusiveOptions" xml:space="preserve">
-    <value>Opțiunile {0} și {1} nu pot fi utilizate împreună.</value>
+    <value>Opțiunile „ {0} ” și „ {1} ” nu pot fi utilizate împreună.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
@@ -96,7 +96,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddDigest" xml:space="preserve">
-    <value>Adăugați rezumate suplimentare ale manifestului folosind algoritmul {ALG}.</value>
+    <value>Adăugați rezumate suplimentare ale manifestului utilizând algoritmul {ALG}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
@@ -124,7 +124,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combină toate sursele specificate într-un singur catalog {FILE}.</value>
+    <value>Combină toate fluxurile specificate într-un singur catalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
@@ -132,7 +132,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
-    <value>Editează fluxul cu editorul de text specificat de variabila de mediu {EDITOR}.</value>
+    <value>Editează fluxul cu ajutorul editorului de text specificat de variabila de mediu {EDITOR}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -144,11 +144,11 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Cheia care trebuie utilizată pentru semnare (dacă aveți mai multe chei sau dacă doriți să resemnați cu o altă cheie).</value>
+    <value>Cheia care trebuie utilizată pentru semnare (dacă aveți mai multe chei sau dacă doriți să resemnați cu o cheie diferită).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionManifestAlgorithm" xml:space="preserve">
-    <value>Utilizează algoritmul {ALG} pentru generarea digesturilor de manifest ale arhivelor nou adăugate. Poate fi specificat de mai multe ori.</value>
+    <value>Utilizează algoritmul {ALG} pentru generarea digesturilor manifestelor arhivelor nou adăugate. Poate fi specificat de mai multe ori.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
@@ -180,7 +180,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">
-    <value>Setați data lansării la {DATE}. Utilizați formatul AAAA-LL-ZZ sau „today”. Lăsați câmpul gol pentru a elimina data.</value>
+    <value>Setați data de lansare la {DATE}. Folosiți formatul AAAA-LL-ZZ sau „today”. Lăsați câmpul gol pentru a elimina data.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">

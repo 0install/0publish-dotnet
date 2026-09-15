@@ -116,7 +116,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveFile" xml:space="preserve">
-    <value>Gebruik {FILE} als de lokale kopie van het archief.</value>
+    <value>Gebruik {FILE} als lokale kopie van het archief.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveUrl" xml:space="preserve">
@@ -128,7 +128,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
-    <value>Maak het feedbestand aan als het nog niet bestaat, zonder om bevestiging te vragen.</value>
+    <value>Maak het feedbestand aan als het nog niet bestaat, zonder hierom te vragen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
@@ -160,7 +160,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionSelectVersion" xml:space="preserve">
-    <value>Pas de --set-*-opties toe op de implementaties met het versienummer {VERSION}.</value>
+    <value>Pas de --set-* opties toe op de implementaties met het versienummer {VERSION}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">
@@ -200,7 +200,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVerbose" xml:space="preserve">
-    <value>Uitgebreidere uitvoer. Gebruik deze optie twee keer voor een nog uitgebreidere uitvoer.</value>
+    <value>Uitgebreidere uitvoer. Gebruik deze opdracht twee keer voor een nog uitgebreidere uitvoer.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

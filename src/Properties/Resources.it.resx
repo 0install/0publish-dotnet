@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskCreateFeed" xml:space="preserve">
-    <value>Il file di feed '{0}' non esiste. Crearlo?</value>
+    <value>Il file di feed "{0}" non esiste. Crearlo?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Inserisci la passphrase GnuPG per {0}:</value>
+    <value>Inserisci la passphrase di GnuPG per {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ExclusiveOptions" xml:space="preserve">
@@ -71,7 +71,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
-    <value>Il feed è rimasto invariato. Non si sta scrivendo.</value>
+    <value>Il feed è rimasto invariato. Non sto scrivendo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
@@ -96,7 +96,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddDigest" xml:space="preserve">
-    <value>Aggiungere ulteriori digest del manifesto utilizzando l'algoritmo {ALG}.</value>
+    <value>Aggiungere ulteriori digest dei manifesti utilizzando l'algoritmo {ALG}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
@@ -120,7 +120,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveUrl" xml:space="preserve">
-    <value>Aggiungere a un'implementazione un archivio scaricabile da {URL}.</value>
+    <value>Aggiungi a un'implementazione un archivio scaricabile da {URL}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -144,7 +144,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chiave da utilizzare per la firma (se ne possiedi più di una o se desideri rifare la firma con una chiave diversa).</value>
+    <value>Chiave da utilizzare per la firma (se ne possiedi più di una o se desideri firmare nuovamente con una chiave diversa).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionManifestAlgorithm" xml:space="preserve">
@@ -152,7 +152,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
-    <value>Questa opzione può essere utilizzata solo insieme a {0}.</value>
+    <value>Questa opzione può essere utilizzata solo in combinazione con {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -168,7 +168,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetID" xml:space="preserve">
-    <value>Impostare l'ID di implementazione su {DIGEST}.</value>
+    <value>Imposta l'ID di implementazione su {DIGEST}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetInterfaceUri" xml:space="preserve">
@@ -184,7 +184,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">
-    <value>Imposta il livello di stabilità su " {STABILITY}".</value>
+    <value>Imposta il livello di stabilità su {STABILITY}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetVersion" xml:space="preserve">
@@ -196,7 +196,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Rimuovi eventuali firme esistenti.</value>
+    <value>Rimuovere eventuali firme esistenti.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVerbose" xml:space="preserve">

@@ -75,12 +75,12 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
-    <value>Nieprawidłowa data wydania. Należy użyć formatu „ {0} ” lub „{1} ”.</value>
+    <value>Nieprawidłowa data wydania. Należy użyć formatu {0} lub '{1}'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Program ten jest dostarczany BEZ ŻADNEJ GWARANCJI, w zakresie dozwolonym przez prawo.
-Można rozpowszechniać kopie tego programu na warunkach określonyc h w licencji GNU Lesser General Public License.</value>
+Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -92,7 +92,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc h w licencj
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nie można znaleźć żadnych pasujących plików kanałów.</value>
+    <value>Nie znaleziono żadnych pasujących plików kanałów.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddDigest" xml:space="preserve">
@@ -124,7 +124,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc h w licencj
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Połącz wszystkie wskazane źródła w jeden katalog {FILE}.</value>
+    <value>Połącz wszystkie określone źródła w jeden katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
@@ -132,7 +132,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc h w licencj
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
-    <value>Edytuj plik źródłowy za pomocą edytora tekstu określonego przez zmienną środowiskową {EDITOR}.</value>
+    <value>Edytuj plik źródłowy za pomocą edytora tekstowego określonego przez zmienną środowiskową {EDITOR}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -144,7 +144,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc h w licencj
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klucz do podpisywania (jeśli masz więcej niż jeden lub chcesz podpisać ponownie innym kluczem).</value>
+    <value>Klucz do podpisywania (jeśli posiadasz więcej niż jeden klucz lub chcesz podpisać ponownie innym kluczem).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionManifestAlgorithm" xml:space="preserve">
@@ -164,7 +164,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc h w licencj
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">
-    <value>Ustaw architekturę na {ARCH} (w formacie os-cpu).</value>
+    <value>Ustaw architekturę na „ {ARCH} ” (w formacie „os-cpu”).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetID" xml:space="preserve">
@@ -172,7 +172,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc h w licencj
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetInterfaceUri" xml:space="preserve">
-    <value>Ustaw kanoniczny kanał {URI}.</value>
+    <value>Ustaw domyślny kanał {URI}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetMain" xml:space="preserve">
@@ -196,7 +196,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc h w licencj
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Usuń wszystkie istniejące sygnatury.</value>
+    <value>Usuń wszystkie istniejące podpisy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVerbose" xml:space="preserve">

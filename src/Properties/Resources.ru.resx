@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskCreateFeed" xml:space="preserve">
-    <value>Файл списка обновлений «{0} » не существует. Создать его?</value>
+    <value>Файл списка источников «{0} » не существует. Создать его?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Введите парольную фразу GnuPG для {0}:</value>
+    <value>Введите пароль GnuPG для {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ExclusiveOptions" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
-    <value>Лента новостей не изменилась. Не пишу.</value>
+    <value>Лента новостей осталась без изменений. Не пишу.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
-    <value>Неверная дата выпуска. Используйте формат {0} или '{1}'.</value>
+    <value>Недопустимая дата выпуска. Используйте формат {0} или '{1}'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -128,19 +128,19 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
-    <value>Создать файл канала, если он ещё не существует, без запроса подтверждения.</value>
+    <value>Создать файл фида, если он ещё не существует, без запроса подтверждения.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
-    <value>Отредактируйте канал с помощью текстового редактора, указанного переменной среды {EDITOR}.</value>
+    <value>Отредактируйте канал с помощью текстового редактора, указанного в переменной среды {EDITOR}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Используйте команду ` {PASS} ` для разблокировки секретного ключа GnuPG.</value>
+    <value>Используйте команду {PASS} для разблокировки секретного ключа GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Отобразить встроенную справку.</value>
+    <value>Показать встроенную справку.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
@@ -152,7 +152,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
-    <value>Этот параметр можно использовать только вместе с {0}.</value>
+    <value>Этот параметр можно использовать только вместе с командой {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
