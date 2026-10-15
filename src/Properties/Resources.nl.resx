@@ -116,7 +116,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveFile" xml:space="preserve">
-    <value>Gebruik {FILE} als lokale kopie van het archief.</value>
+    <value>Gebruik {FILE} als de lokale kopie van het archief.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveUrl" xml:space="preserve">
@@ -200,7 +200,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVerbose" xml:space="preserve">
-    <value>Uitgebreidere uitvoer. Gebruik deze opdracht twee keer voor een nog uitgebreidere uitvoer.</value>
+    <value>Uitgebreidere uitvoer. Gebruik deze optie twee keer voor een nog uitgebreidere uitvoer.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
