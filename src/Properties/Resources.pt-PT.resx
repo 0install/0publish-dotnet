@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskCreateFeed" xml:space="preserve">
-    <value>O ficheiro de feed «{0} » não existe. Deseja criá-lo?</value>
+    <value>O ficheiro de alimentação «{0} » não existe. Deseja criá-lo?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -71,7 +71,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
-    <value>O feed permanece inalterado. Não está a escrever.</value>
+    <value>O feed permanece inalterado. Não estou a escrever.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
@@ -79,7 +79,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Este programa é fornecido SEM QUALQUER GARANTIA, na medida do permitido por lei.
+    <value>Este programa é fornecido SEM QUALQUER TIPO DE GARANTIA, na medida do permitido por lei.
 Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Pública Geral Reduzida da GNU.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -184,7 +184,7 @@ Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Públi
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">
-    <value>Defina a classificação de estabilidade para « {STABILITY} ».</value>
+    <value>Defina a classificação de estabilidade como « {STABILITY} ».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetVersion" xml:space="preserve">

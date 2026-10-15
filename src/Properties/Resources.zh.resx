@@ -79,8 +79,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>在法律允许的范围内，本程序绝不提供任何担保。
-您可以根据 GNU 弱通用公共许可证的条款重新分发本程序的副本。</value>
+    <value>在法律允许的范围内，本程序不提供任何形式的保证。
+您可以根据 GNU 较宽松通用公共许可证的条款重新分发本程序的副本。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
-    <value>将{FEED} 中的实现添加到此源中，并将其放入最合适的组中。</value>
+    <value>将{FEED} 中的实现添加到此源中，并将其归入最合适的组。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -112,15 +112,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveExtract" xml:space="preserve">
-    <value>仅使用存档中的{DIR} 子目录。</value>
+    <value>仅使用归档文件中的{DIR} 子目录。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveFile" xml:space="preserve">
-    <value>请将{FILE} 作为存档的本地副本。</value>
+    <value>将{FILE} 作为存档的本地副本。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionArchiveUrl" xml:space="preserve">
-    <value>将一个可从{URL} 下载的存档文件添加到实现中。</value>
+    <value>将一个可从{URL} 下载的归档文件添加到实现中。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -128,7 +128,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
-    <value>如果源文件尚不存在，则不经提示直接创建该文件。</value>
+    <value>如果源文件尚不存在，则直接创建，不进行提示。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
@@ -144,7 +144,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>用于签名的密钥（如果您拥有多个密钥，或者希望使用其他密钥重新签名）。</value>
+    <value>用于签名的密钥（如果您拥有多个密钥，或者想要使用其他密钥重新签名）。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionManifestAlgorithm" xml:space="preserve">
@@ -180,7 +180,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">
-    <value>将发布日期设置为{DATE} 。请使用 YYYY-MM-DD 格式或“today”。若留空则移除日期。</value>
+    <value>将发布日期设置为{DATE} 。请使用 YYYY-MM-DD 格式或“today”。留空则不显示日期。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">
@@ -192,7 +192,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionStable" xml:space="preserve">
-    <value>将最新的测试版本标记为稳定版本。</value>
+    <value>将最新的测试版本标记为稳定版。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
