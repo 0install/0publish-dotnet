@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskCreateFeed" xml:space="preserve">
-    <value>Il file di feed '{0}' non esiste. Crearlo?</value>
+    <value>Il file di feed "{0}" non esiste. Crearlo?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -71,7 +71,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
-    <value>Il feed è rimasto invariato. Non sto scrivendo.</value>
+    <value>Il feed rimane invariato. Non si sta scrivendo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
@@ -160,7 +160,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSelectVersion" xml:space="preserve">
-    <value>Applicare le opzioni --set-* alle implementazioni con il numero di versione {VERSION}.</value>
+    <value>Applicare le opzioni --set-* alle implementazioni con numero di versione {VERSION}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">
@@ -176,7 +176,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetMain" xml:space="preserve">
-    <value>Imposta l'eseguibile principale su {EXEC}.</value>
+    <value>Impostare l'eseguibile principale su {EXEC}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">

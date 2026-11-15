@@ -75,13 +75,13 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
-    <value>Nieprawidłowa data wydania. Należy użyć formatu „ {0} ” lub „{1} ”.</value>
+    <value>Nieprawidłowa data wydania. Należy użyć formatu {0} lub „{1} ”.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Program ten jest dostarczany BEZ ŻADNEJ GWARANCJI, w zakresie dozwolonym przez prawo.
-Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji GNU Lesser General Public License.</value>
-    <comment>Automatically translated.</comment>
+    <value>Niniejszy program jest dostarczany BEZ ŻADNEJ GWARANCJI, w zakresie dozwolonym przez prawo.
+Możesz rozpowszechniać kopie tego programu na warunkach określonych w licencji GNU Lesser General Public License.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
     <value>Brak argumentów. Spróbuj {0}</value>
@@ -128,7 +128,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
-    <value>Jeśli plik feed jeszcze nie istnieje, utwórz go bez wyświetlania monitu.</value>
+    <value>Jeśli plik feed jeszcze nie istnieje, należy go utworzyć bez wyświetlania monitu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
@@ -196,12 +196,12 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Usuń wszystkie istniejące podpisy.</value>
+    <value>Usuń wszystkie istniejące sygnatury.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVerbose" xml:space="preserve">
-    <value>Bardziej szczegółowy wynik. Użyj dwukrotnie, aby uzyskać jeszcze bardziej szczegółowy wynik.</value>
-    <comment>Automatically translated.</comment>
+    <value>Bardziej szczegółowe dane wyjściowe. Użyj dwukrotnie, aby uzyskać jeszcze bardziej szczegółowe dane wyjściowe.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Wyświetla informacje o wersji.</value>

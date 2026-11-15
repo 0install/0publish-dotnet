@@ -124,7 +124,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>지정된 모든 피드를 하나의 카탈로그 {FILE} 로 통합합니다.</value>
+    <value>지정된 모든 피드를 하나의 카탈로그로 통합합니다 {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCreate" xml:space="preserve">
@@ -200,7 +200,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVerbose" xml:space="preserve">
-    <value>더 자세한 출력을 표시합니다. 두 번 실행하면 더욱 자세한 출력을 확인할 수 있습니다.</value>
+    <value>더 자세한 출력을 표시합니다. 두 번 실행하면 더욱 자세한 출력을 볼 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

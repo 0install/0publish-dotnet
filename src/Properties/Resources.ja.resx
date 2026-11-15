@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ExclusiveOptions" xml:space="preserve">
-    <value>{0} と{1} のオプションは、同時に使用することはできません。</value>
+    <value>オプション「{0} 」と「{1} 」は併用できません。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedUnchanged" xml:space="preserve">
@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidReleaseDate" xml:space="preserve">
-    <value>リリース日が無効です。{0} または '{1}' の形式を使用してください。</value>
+    <value>リリース日が不正です。{0} または '{1}' の形式を使用してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -180,7 +180,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">
-    <value>リリース日を `{DATE}` に設定します。形式は `YYYY-MM-DD` または `'today'` を使用してください。空欄のままにすると日付が削除されます。</value>
+    <value>リリース日を `{DATE}` に設定します。形式は `YYYY-MM-DD` または `'today'` を使用してください。空欄のままにすると日付は削除されます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">

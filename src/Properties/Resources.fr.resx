@@ -88,7 +88,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEditorFound" xml:space="preserve">
-    <value>Aucun éditeur de texte n'a été trouvé. Essayez de définir la variable d'environnement {0}.</value>
+    <value>Aucun éditeur de texte trouvé. Essayez de définir la variable d'environnement {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -164,7 +164,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">
-    <value>Définissez l'architecture sur « {ARCH} » (sous la forme « os-cpu »).</value>
+    <value>Définissez l'architecture sur {ARCH} (sous la forme os-cpu).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetID" xml:space="preserve">
