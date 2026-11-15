@@ -160,7 +160,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionSelectVersion" xml:space="preserve">
-    <value>将 --set-* 选项应用于版本号为{VERSION} 的实现。</value>
+    <value>对版本号为{VERSION} 的实现应用 --set-* 选项。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">
@@ -180,7 +180,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">
-    <value>将发布日期设置为{DATE} 。请使用 YYYY-MM-DD 格式或“today”。留空则不显示日期。</value>
+    <value>将发布日期设置为{DATE} 。请使用 YYYY-MM-DD 格式或“today”。留空则去除日期。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">

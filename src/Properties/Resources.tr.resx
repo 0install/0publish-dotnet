@@ -104,7 +104,7 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Eksik arşivleri indirin, öge listesi dosyalarını hesaplayın, vb.</value>
+    <value>Eksik arşivleri indirin, öge listesi karmalarını hesaplayın, vb.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddVersion" xml:space="preserve">

@@ -88,7 +88,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEditorFound" xml:space="preserve">
-    <value>Nenalezen žádný textový editor. Zkuste nastavit proměnnou prostředí {0}.</value>
+    <value>Nebyl nalezen žádný textový editor. Zkuste nastavit proměnnou prostředí {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -100,7 +100,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
-    <value>Přidejte implementace z adresáře {FEED} do tohoto kanálu a zařaďte je do nejvhodnější skupiny.</value>
+    <value>Přidejte implementace z adresáře {FEED} do tohoto zdroje a zařaďte je do nejvhodnější skupiny.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -152,7 +152,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
-    <value>Tuto možnost lze použít pouze ve spojení s příkazem {0}.</value>
+    <value>Tuto volbu lze použít pouze ve spojení s příkazem {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -160,7 +160,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSelectVersion" xml:space="preserve">
-    <value>Použijte volby --set-* u implementací s číslem verze {VERSION}.</value>
+    <value>Použijte volby --set-* pro implementace s číslem verze {VERSION}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetArch" xml:space="preserve">

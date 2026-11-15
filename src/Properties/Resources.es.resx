@@ -136,7 +136,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Utiliza {PASS} para desbloquear la clave secreta de GnuPG.</value>
+    <value>Utiliza « {PASS} » para desbloquear la clave secreta de GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -176,7 +176,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetMain" xml:space="preserve">
-    <value>Configura el ejecutable principal como {EXEC}.</value>
+    <value>Establece el ejecutable principal en {EXEC}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">

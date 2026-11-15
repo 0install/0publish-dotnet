@@ -92,11 +92,11 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Tidak dapat menemukan file feed yang sesuai.</value>
+    <value>Tidak dapat menemukan file feed yang cocok.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddDigest" xml:space="preserve">
-    <value>Tambahkan ringkasan manifest tambahan menggunakan algoritma {ALG}.</value>
+    <value>Tambahkan ringkasan manifes tambahan menggunakan algoritma {ALG}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddFrom" xml:space="preserve">
@@ -132,7 +132,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEdit" xml:space="preserve">
-    <value>Edit feed tersebut dengan editor teks yang ditentukan oleh variabel lingkungan ` {EDITOR} `.</value>
+    <value>Edit feed tersebut menggunakan editor teks yang ditentukan oleh variabel lingkungan ` {EDITOR} `.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -148,7 +148,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionManifestAlgorithm" xml:space="preserve">
-    <value>Gunakan algoritma {ALG} untuk menghasilkan ringkasan manifes arsip yang baru ditambahkan. Dapat ditentukan beberapa kali.</value>
+    <value>Gunakan algoritma {ALG} untuk menghasilkan ringkasan manifes dari arsip yang baru ditambahkan. Dapat ditentukan beberapa kali.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
@@ -176,7 +176,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetMain" xml:space="preserve">
-    <value>Tetapkan file eksekusi utama ke {EXEC}.</value>
+    <value>Tetapkan file eksekusi utama menjadi {EXEC}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetReleased" xml:space="preserve">
@@ -184,7 +184,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetStability" xml:space="preserve">
-    <value>Atur peringkat stabilitas menjadi {STABILITY}.</value>
+    <value>Atur peringkat stabilitas menjadi " {STABILITY}".</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionSetVersion" xml:space="preserve">
