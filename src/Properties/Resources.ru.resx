@@ -152,7 +152,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionRequires" xml:space="preserve">
-    <value>Этот параметр можно использовать только вместе с командой « {0} ».</value>
+    <value>Этот параметр можно использовать только вместе с {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
