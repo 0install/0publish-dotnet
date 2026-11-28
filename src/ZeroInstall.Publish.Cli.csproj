@@ -28,7 +28,7 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <PackageReference Include="NanoByte.Common.AnsiCli" Version="3.6.0" />
+    <PackageReference Include="NanoByte.Common.AnsiCli" Version="3.6.1" />
     <PackageReference Include="ZeroInstall.Publish" Version="2.30.0" />
     <PackageReference Include="NDesk.Options.Patched" Version="0.3.3" />
   </ItemGroup>
